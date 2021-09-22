@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TP Final sur l'HTML en globalité">
+    <title>TP Final - HTML en globalité</title>
+    <link rel="Shortcut icon" href="Ressources/favicon/favicon.png">
+</head>
+
+<body>
+    <header>
+        <h1>HTML dans sa globalité</h1>
+    </header>
+
+    <article>
+        <div class="Présentation">
+            <h2>Bonjour !</h2>
+            <p>Cher lecteur, je vais te parler un peu de moi. Je m'appelle <strong>PETIT Louis</strong>, j'ai <strong>20
+                    ans</strong>, et j'aime beaucoup <em>jouer
+                    aux jeux-vidéos</em> en tout genre, la <em>photographie</em>, la <em>musique</em>, l'<em>art
+                    numérique</em>.
+            </p>
+        </div>
+        <hr>
+
+        <div class="Parcours">
+            <h2>Mon parcours</h2>
+            <ul>
+                <li>Service civique à l'accueil de la CPAM de Soissons</li>
+                <li>Brevet de technicien supérieur en Conception et Réalisation de Systèmes Automatiques</li>
+                <li>Baccalauréat Technologique en Sciences et Technologies de l'Industrie et du Développement Durable
+                    spécialisation Innovation Technologique et Éco Conception</li>
+                <li>Brevet des collèges</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="TableauCompetences">
+            <table border="1">
+                <tr>
+                    <th>Technologie</th>
+                    <th>Débutant</th>
+                    <th>Moyen</th>
+                    <th>Bon</th>
+                    <th>Expert</th>
+                </tr>
+
+                <tr>
+                    <td><img src="Ressources/html.svg" alt="Logo HTML"></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><img src="Ressources/css.svg" alt="Logo CSS"></td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><img src="Ressources/js.svg" alt="Logo JS"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><img src="Ressources/php.svg" alt="Logo PHP"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><img src="Ressources/sql.svg" alt="Logo SQL"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="Contact">
+            <h2>Me contacter</h2>
+            <p>
+                <a href="mailto:louisadressedev@gmail.com?" rel="nofollow"
+                    title="Envoyer un mail à l'adresse louisadressedev@gmail.com">Envoyer un mail</a><br>
+                <a href="tel:+33611473103" rel="nofollow" title="Passer un appel au +33611473103">Passer un appel</a>
+            </p>
+            <br>
+            <h3>Formulaire de contact</h3>
+            <form>
+                <label for="Homme">Homme ♂</label>
+                <input type="radio" name="Sexe" id="Homme" checked><br>
+
+                <label for="Femme">Femme ♀</label>
+                <input type="radio" name="Sexe" id="Femme"><br>
+                <br>
+
+                <label for="NomPrenom">Nom & Prénom :</label>
+                <input type="text" name="ID" id="NomPrenom" placeholder="ex : Didier Deschamps"><br>
+                <br>
+                <label for="Age">Age :</label>
+                <input type="number" name="Age" id="Age" min="1" max="130" placeholder="ex : 52">
+                <label for="Age">ans</label><br>
+                <br>
+
+                <label for="email">E-mail :</label>
+                <input type="email" name="email" id="email" placeholder="exemple@domain.com"><br>
+                <br>
+
+                <label for="Sujet">Sujet :</label>
+                <select id="Sujet">
+                    <option>Choisissez</option>
+                    <option>Assistance Technique</option>
+                    <option>Demande commerciale</option>
+                    <option>Demande Autre</option>
+                </select>
+                <br><br>
+
+                <label for="Message">Votre message :</label><br>
+                <textarea placeholder="Ex : Madame, Monsieur ..." id="Message" rows="10" cols="50"></textarea><br>
+                <br>
+
+                <input type="checkbox" name="CGU" id="CGU">
+                <label for="CGU">En cochant cette case j'accepte les conditions relatives à<br>
+                l'utilisation de mes données personnelles décrites dans les<br>
+                <a href="#" title="Redirection vers les Conditions d'utilisations du site">mentions légales</a> .</label><br>
+                <br>
+
+                <input type="button" name="Submit" id="Submit" value="Envoyer le message">
+            </form>
+        </div>
+
+    </article>
+    <br>
+    <iframe src="https://discord.com/widget?id=876587222512574515&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    <footer>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </footer>
+</body>
+
+</html>

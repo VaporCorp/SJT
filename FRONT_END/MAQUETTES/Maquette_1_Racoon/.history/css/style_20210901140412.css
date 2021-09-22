@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* header {
+  margin: 0 auto;
+  padding: 0 1.5em,
+}
+* header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+* header ul li {
+  flex-direction: row;
+}
+* main {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

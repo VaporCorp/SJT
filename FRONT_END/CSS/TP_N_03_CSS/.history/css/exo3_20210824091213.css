@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    margin: 60px 0;
+}
+
+h2{
+    margin: 20px 0;
+    text-align: center;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+.exoUnContainer{
+    width: 500px;
+    height: 500px;
+    border: dotted 2px black;
+}
+
+.carre{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+
+.carreRouge{
+    background: red;
+    top: 0px;
+    left: 250px;
+}
+
+.carreJaune{
+    background: yellow;
+    top: 0px;
+    left: 0px;
+}
+
+.carreBleu{
+    background: blue;
+    top: 250px;
+    left: 250px;
+}
+
+.carreVert{
+    background: green;
+    top: 250px;
+    left: 0px;
+}
+
+.exoUnContainer{
+    position: relative;
+}
+
+.carreViolet{
+    background: violet;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+}
+
+form {
+    margin-top: 50px;
+    display: inline-block;
+    background-color: rgb(55, 158, 84);
+    max-width: 700px;
+    text-align: center;
+    color: #FFF;
+    padding: 30px;
+}
+
+form h3 {
+    font-size: 30px;
+    text-align: left;
+}
+
+form img {
+    width: 50px;
+    margin-top: 10px;
+    height: auto;
+    float: right;
+    filter: invert(1) brightness(2);
+}
+
+input {
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+textarea {
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 35px;
+    max-width: 100%;
+    resize: none;
+    height: 200px;
+}
+
+.envoi {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: #000000;
+    cursor: pointer;
+}

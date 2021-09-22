@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flag:first-of-type {
+    background-color: #FFFFFF;
+    position: relative;
+    height: 350px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.flag:first-of-type:before{
+    content:"";
+    width:33.33%;
+    background-color: rgba(0,35,149,1);
+    position:absolute;
+    top:0;
+    left: 0;
+    bottom:0;
+}
+
+.flag:first-of-type:after {
+    content:"";
+    width:33.33%;
+    background-color: rgba(237,41,57,1);
+    position:absolute;
+    top:0;
+    left: 66.66%;
+    bottom:0;
+}
+
+.flag:nth-of-type(2) {
+    margin-top: 50px;
+    background-color: #DE0000;
+    position: relative;
+    height: 350px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.flag:nth-of-type(2):before{
+    content:"";
+    width:100%;
+    height: 33.33%;
+    background-color: #000000;
+    position:absolute;
+    top:0;
+    left: 0;
+    bottom:0;
+}
+
+.flag:nth-of-type(2):after {
+    content:"";
+    height: 33.33%;
+    width: 100%;
+    background-color: #FFCF00;
+    position:absolute;
+    top: 66.66%;
+    left: 0;
+    bottom:0;
+}
+
+.flag:nth-of-type(3) {
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    position: relative;
+    height: 350px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.flag:nth-of-type(3):before {
+    content:"";
+    width: 200px;
+    height: 200px;
+    background-color: #BD0029;
+    position:absolute;
+    top: 75px;
+    left: 200px;
+    bottom:0;
+    border-radius: 100px;
+}
+
+.flag:nth-of-type(4) {
+    margin-top: 50px;
+    background-color: #FF0000;
+    position: relative;
+    height: 350px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.flag:nth-of-type(4):before{
+    content:"";
+    width: 33.33%;
+    height: 20%;
+    background-color: #FFFFFF;
+    position:absolute;
+    top:40%;
+    left: 33.33%;
+    bottom:0;
+}
+
+.flag:nth-of-type(4):after {
+    content:"";
+    height: 60%;
+    width: 10%;
+    background-color: #FFFFFF;
+    position:absolute;
+    top: 20%;
+    left: 45%;
+    bottom:0;
+}
+
+.flag:nth-of-type(5) {
+    margin-top: 50px;
+    background: linear-gradient(to right, #ef2b2d 120px, white 120px, white 140px, #002868 140px, #002868 180px, white 180px, white 200px, #ef2b2d 200px);
+    position: relative;
+    height: 350px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.flag:nth-of-type(5):before{
+    content:"";
+    width: 140px;
+    height: 50%;
+    background: linear-gradient(to bottom, #0a000000 60px, white 60px, white 80px, #002868 80px, #002868 120px, white 120px, white 140px, #0a000000 140px);
+    position:absolute;
+    top:25%;
+    left: 0;
+    bottom:0;
+}
+
+.flag:nth-of-type(5):after {
+    content:"";
+    height: 100%;
+    width: 70%;
+    background: linear-gradient(to bottom, #0a000000 60px, white 60px, white 80px, #002868 80px, #002868 120px, white 120px, white 140px, #0a000000 140px);;
+    position:absolute;
+    top: 25%;
+    left: 30%;
+    bottom:0;
+}
+
+.flag:nth-of-type(6) {
+    margin-top: 50px;
+    background-color: #008751;
+    position: relative;
+    height: 350px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.flag:nth-of-type(6):before{
+    content:"";
+    width: 60%;
+    height: 50%;
+    background-color: #FCD116;
+    position:absolute;
+    top:0%;
+    left: 40%;
+    bottom:0;
+}
+
+.flag:nth-of-type(6):after {
+    content:"";
+    height: 50%;
+    width: 60%;
+    background-color: ##E8112D;
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    bottom:0;
+}
+
+.flag:nth-of-type(7) {
+    margin-top: 50px;
+    background-color: #FF0000;
+    position: relative;
+    height: 350px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.flag:nth-of-type(7):before{
+    content:"";
+    width: 33.33%;
+    height: 20%;
+    background-color: #FFFFFF;
+    position:absolute;
+    top:40%;
+    left: 33.33%;
+    bottom:0;
+}
+
+.flag:nth-of-type(7):after {
+    content:"";
+    height: 60%;
+    width: 10%;
+    background-color: #FFFFFF;
+    position:absolute;
+    top: 20%;
+    left: 45%;
+    bottom:0;
+}

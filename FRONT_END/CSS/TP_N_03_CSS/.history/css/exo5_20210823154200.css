@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    max-width: 1150px;
+    color: #FFF;
+    background-color: #000;
+}
+
+nav {
+    background-color: black;
+    color: orange;
+}
+
+nav .logoFlottant {
+    border: 2px solid orange;
+    padding: 10px 30px 10px 30px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+ul li {
+    margin: 20px;
+    display: inline-block;
+}
+
+ul li a {
+    color: orange;
+    text-decoration: none;
+    border-bottom: 2px solid orange;
+}
+
+main{
+    max-width: 1150px;
+    margin: auto;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+}
+
+.illustrationFloatRight {
+    float: right;
+    width: 200px;
+    height: auto;
+}

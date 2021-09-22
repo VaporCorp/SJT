@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 17px
+}
+
+* header {
+  margin: 0 auto;
+}
+* header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+* header ul li {
+  flex-direction: row;
+}
+* main {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

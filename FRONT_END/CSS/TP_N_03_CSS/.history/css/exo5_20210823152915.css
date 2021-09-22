@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    max-width: 1150px;
+}
+
+nav {
+    background-color: black;
+    color: #FFF;
+}
+
+nav .logoFlottantGauche {
+    border: 2px solid #FFF;
+    padding: 10px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+ul li {
+    margin: 20px;
+    display: inline-block;
+}
+
+ul li a {
+    color: #FFF;
+}
+
+.illustrationFloatRight {
+    float: right;
+    width: 200px;
+    height: auto;
+}

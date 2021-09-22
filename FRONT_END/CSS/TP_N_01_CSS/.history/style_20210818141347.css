@@ -1,0 +1,154 @@
+/* ----- FEUILLE DE STYLE ----- */
+/*                              */
+/*            HEADER            */
+/*              NAV             */
+/*             BODY             */
+/*             MAIN             */
+/*            FOOTER            */
+/*                              */
+
+/* All */
+    * {
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+        }
+    header, body, main, footer {
+        margin : 0;
+        background-color: #F6F6F6;
+    }
+
+/* HEADER */
+    header {
+        background-color: #359E7B;
+    }
+
+/* NAV */
+    nav {
+        background-color: #359E7B;
+    }
+
+    nav ul {
+        margin: auto;
+        text-align: right;
+        max-width: 1150px;
+    }
+
+    nav ul li{
+        display: inline-block;
+    }
+
+    ul li a {
+        color: #F6F6F6;
+        padding: 15px;
+        display: inline-block;
+    }
+
+/* BODY */
+    body {
+        font-family: sans-serif;
+    }
+
+/* MAIN */
+    main {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        text-transform: uppercase ;
+    }
+
+    h1 {
+        color : #359E7B;
+        text-align: center;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-right: 50px;
+        margin-left: 50px;
+        text-decoration: underline;
+        color: #006083;
+    }
+
+    h3 {
+        color: #006083;
+    }
+
+    .dateTime {
+        color: grey;
+        font-weight: bold;
+    }
+
+    .ensavoirplus {
+        display: block;
+        text-align: right;
+        color: #359E7B
+    }
+
+    .moreAndMore {
+        display: block;
+        background-color: #359E7B;
+        max-width: 250px;
+        color: #FFFFFF;
+        padding: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+
+/* FOOTER */
+    footer {
+        background-color: darkgray;
+        padding: 15px;
+        text-align: center;
+    }
+
+    footer a {
+        color: #FFFFFF;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #359E7B;
+    }
+    
+    input {
+        font-size: 25px;
+        border: none;
+        border-bottom: 2px;
+        border-bottom-style: solid;
+        border-color: #359E7B;
+        padding: 15px;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    input:focus{
+        color: red;
+    }
+    
+    textarea {
+        font-size: 25px;
+        padding: 15px;
+        margin-bottom: 20px;
+        width: 100%;
+        resize: none;
+        height: 300px;
+        border-width: 2px;
+        border-color: #359E7B;
+    }
+    
+    .envoi {
+        background-color: #359E7B;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        color: #FFFFFF;
+        cursor: pointer;
+    }

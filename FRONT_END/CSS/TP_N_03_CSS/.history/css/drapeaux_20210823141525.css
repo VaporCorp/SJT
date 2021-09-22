@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flag_fr {
+    background-color: #FFFFFF;
+    position: relative;
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.flag_fr p:before{
+    content:"";
+    width:200px;
+    background-color: rgba(0,35,149,1);
+    position:absolute;
+    top:0;
+    left:-30px;
+    bottom:0;
+}
+
+.flag_fr:after {
+    background-color: rgba(237,41,57,1);
+}
+
+.flag2_de {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(255,207,0,1) 50%);
+    border: 2px solid black;
+}
+
+.banderouge_de {
+    background-color: #DE0000;
+    position: absolute;
+    top: 33%;
+    left: 0px;
+    width: 100%;
+    height: 33%;
+}
+
+.flag3_ja {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    background: radial-gradient(circle, #BD0029 0%, #BD0029 33%, rgba(255,255,255,1) 33%);
+    border: 2px solid black;
+}
+
+.flag4_ch {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    background-color: #FF0000;
+    border: 2px solid black;
+}
+
+.bande_blanche_1 {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 33%;
+    left: 0px;
+    width: 100%;
+    height: 33%;
+}
+
+.bande_blanche_2 {
+
+}

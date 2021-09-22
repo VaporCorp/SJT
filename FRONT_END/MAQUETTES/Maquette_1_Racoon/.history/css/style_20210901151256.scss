@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+
+        header {
+            margin: 0 auto;
+            ul {
+                display: flex;
+                list-style: none;
+                justify-content: space-evenly;
+                li {
+                    flex-direction: row;
+                }
+            }
+        }
+
+        main {
+            margin: 0 auto;
+        }
+}
+
+body {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 17px;
+}

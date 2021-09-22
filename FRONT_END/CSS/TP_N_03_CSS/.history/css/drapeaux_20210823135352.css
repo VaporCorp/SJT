@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flag {
+    background: linear-gradient(90deg, rgba(0,35,149,1) 0%, rgba(0,35,149,1) 50%, rgba(237,41,57,1) 50%);
+    position: relative;
+    height: 300px;
+}
+
+.bandeblanche {
+    background-color: #FFF;
+    position: absolute;
+    top: 0px;
+    left: 33%;
+    width: 33%
+}
+

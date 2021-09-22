@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP n°4 - Les formulaires</title>
+</head>
+
+<body>
+    <h1>PETIT Louis - Les formulaires</h1>
+    <h2>Mon premier formulaire</h2>
+
+    <form action="#" method="POST">
+        <input type="Radio" id="Homme" name="Sexe" value="Homme" checked>
+        <label for="Homme">Homme</label>
+
+        <input type="radio" id="Femme" name="Sexe" value="Femme">
+        <label for="Femme">Femme</label>
+
+        <input type="radio" id="Unspecified" name="Sexe" value="Non spécifié">
+        <label for="Unspecified">Non spécifié</label>
+        <br><br>
+
+        <label for="Nom">Nom : </label>
+        <input type="text" id="Nom" name="Nom" placeholder="Ex : Deschamps">
+        <br><br>
+
+        <label for="Prenom">Prénom : </label>
+        <input type="text" id="Prenom" name="Prenom" placeholder="Ex : Didier">
+        <br><br>
+
+        <label for="Age">Age : </label>
+        <input type="number" id="Age" name="Age" min="16" max="99">
+        <br><br>
+
+        <label for="Email">Email : </label>
+        <input type="email" id="Email" name="Email">
+        <br><br>
+
+        <label for="Message">Message : </label>
+        <textarea id="Message" name="Message"></textarea>
+        <br><br>
+
+        <p><input type="checkbox" name="Mentions_legales">En cochant cette case j'accepte les conditions<br>
+            relatives à l'utilisation de mes données personnelles.<br>
+            (accéder aux mentions légales)</p>
+        <input type="button" name="Envoyer" value="Envoyer le message">
+    </form>
+
+    <br>
+    <hr><br>
+
+    <h2>Ensemble de champs</h2><br>
+
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>MON SECOND FORMULAIRE</legend>
+            <fieldset>
+                <legend>Identité</legend>
+
+                <input type="radio" id="Homme2" name="Sexe" value="Homme2">
+                <label for="Homme2">Homme</label>
+
+                <input type="radio" id="Femme2" name="Sexe" value="Femme2">
+                <label for="Femme2">Femme</label>
+
+                <input type="radio" id="Unspecified2" name="Sexe" value="Unspecified2">
+                <label for="Unspecified2">Non spécifié</label>
+                <br><br>
+
+                <label for="Nom2">Nom : </label>
+                <input type="text" id="Nom2" name="Nom2" Placeholder="ex : Dupont">
+                <br><br>
+
+                <label for="Prenom2">Prénom : </label>
+                <input type="text" id="Prenom2" name="Prenom2" Placeholder="ex : Jean">
+                <br><br>
+
+                <label for="Age2">Age : </label>
+                <input type="text" id="Age2" name="Age2" Placeholder="ex : 43">
+            </fieldset>
+
+            <fieldset>
+                <legend>Situation personnelle</legend>
+
+                <input type="radio" id="Celibataire" name="Situation" value="Celibataire">
+                <label for="Celibataire">Célibataire</label>
+
+                <input type="radio" id="Mariage" name="Situation" value="Mariage">
+                <label for="Mariage">Marié(e)</label>
+
+                <input type="radio" id="Veuf" name="Situation" value="Veuf">
+                <label for="Veuf">Veuf(ve)</label>
+
+                <input type="radio" id="UnionLibre" name="Situation" value="UnionLibre">
+                <label for="UnionLibre">Union libre</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact</legend>
+
+                <label for="Telephone">Telephone : </label>
+                <input type="text" id="Telephone" name="Telephone" placeholder="ex : 0643259642">
+                <br><br>
+
+                <label for="Email2">Email : </label>
+                <input type="email" id="Email2" name="Email2" placeholder="ex : abcd.efgh@gmail.com">
+            </fieldset>
+
+            <p><input type="checkbox" name="Donnees">En cochant cette case je confirme que les données renseignées<br>
+                sont exactes</p>
+
+            <input type="button" id="Transmission" name="Transmission" value="Transmettre mes données">
+        </fieldset>
+    </form>
+</body>
+
+</html>
