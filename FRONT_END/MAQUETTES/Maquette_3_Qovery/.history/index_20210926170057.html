@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Maquette N°3 de CSS sur Qovery">
+   <link rel="shortcut icon" href="src/svg/logo2-qovery.svg" type="image/x-icon">
+   <link rel="stylesheet" href="webfiles/css/style.css">
+   <link rel="stylesheet" href="webfiles/js/highlight/styles/default.min.css">
+   <script src="webfiles/js/highlight/highlight.min.js"></script>
+   <script>hljs.highlightAll();</script>
+   <title>Maquette N°3 - Qovery</title>
+</head>
+
+<body>
+   <div class="Home">
+
+      <div class="first_block">
+
+         <div class="first_block_left_part">
+
+            <div class="logo">
+               <img src="src/img/png/logo-qovery.png" alt="Logo Qovery">
+               <h1>Qovery</h1>
+            </div>
+
+            <div class="text_first_block_left_part">
+               <h2>Qovery Engine</h2>
+               <p>Abstraction layer to deploy microservices applications on any Cloud provider.</p>
+               <p>Qovery Engine is an open-source abstraction layer product that turns easy apps deployment on AWS, GCP, Azure and others Cloud providers.</p>
+               <div class="buttons_first_block_left_part">
+                  <button class="first_button_fblp"><img src="src/img/png/GitHub-Mark-Light-120px-plus.png" alt="Logo Github"><p>See on github</p></button>
+                  <button class="second_button_fblp"><img src="src/img/svg/Discord-Logo-White.svg" alt="Logo Discord"><p>Join us on discord</p></button>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="first_block_right_part">
+            <img src="src/img/png/landing_page_img.png" alt="Image descriptive du placement de Qovery dans le système de déploiement d'applications">
+         </div>
+
+      </div>
+
+   </div>
+
+   <div class="page">
+
+      <div class="second_block_first_part">
+         <h2>How does it work ?</h2>
+         <p>Qovery Engine is an open-source abstraction layer product that turns easy apps deployment on AWS, GCP, Azure
+            and others Cloud providers. The Qovery Engine is coded in Rust and takes advantage of Terraform, Helm,
+            Kubectl, Docker to manage resources.</p>
+         <img src="src/img/png/qovery_explanation.png" alt="Image d'explication du fonctionnement de Qovery">
+      </div>
+
+      <div class="second_block_second_part">
+         <h2>Usage</h2>
+         <pre>
+            let engine = Engine::new(
+               context, // parameters
+               local_docker, // initialize Docker as a Build Platform
+               ecr, // initialize Elastic Container Registry
+               aws, // initialize AWS account
+               cloudflare, // initialize Cloudflare as DNS Nameservers
+            );
+
+            let session = match engine.session() {
+               Ok(session) => session, // get the session
+               Err(config_error) => panic!("configuration error {:?}", config_error),
+            };
+
+            let mut tx = session.transaction();
+
+            // create EKS (AWS managed Kubernetes cluster)
+            tx.create_kubernetes(&eks);
+
+            // create the infrastructure and wait for the result
+            match tx.commit() { 
+               TransactionResult::Ok => println!("OK"),
+               TransactionResult::Rollback(commit_err) => println!("ERROR but rollback OK"), 
+               TransactionResult::UnrecoverableError(commit_err, rollback_err) => println!("FATAL ERROR")
+            };
+         </pre>
+
+         <div class="buttons_second_block_second_part">
+            <button class="first_button_fblp"><img src="src/img/GitHub-Mark-Light-120px-plus.png" alt="Logo Github"><p>See on github</p></button>
+            <button class="second_button_fblp"><img src="src/svg/Discord-Logo-White.svg" alt="Logo Discord"><p>Join us on discord</p></button>
+         </div>
+      </div>
+
+   </div>
+</body>
+
+</html>

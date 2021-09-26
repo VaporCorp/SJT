@@ -1,0 +1,152 @@
+/* ----- TABLE DES STYLES ----- */
+/* FONT IMPORT                  */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+
+/* FONT IMPORT */
+
+@font-face {
+    font-family: 'HK_Grotesk_SemiBold_Legacy';
+    font-style: normal;
+    font-weight: 550;
+    src: url('../src/fonts/HKGrotesk-SemiBoldLegacy.otf');
+    }
+
+@font-face {
+    font-family: 'HK_Grotesk_Extra_Bold';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../src/fonts/HKGrotesk-ExtraBold.otf');
+    }
+    
+@font-face {
+    font-family: 'HK_Grotesk_Bold';
+    font-style: normal;
+    font-weight: Bold;
+    src: url('../src/fonts/HKGrotesk-Bold.otf');
+    }
+
+@font-face {
+    font-family: 'Hack_Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../src/fonts/Hack-Regular.ttf');
+    }
+
+@font-face {
+    font-family: 'SF_UI_Text_Bold';
+    font-style: normal;
+    font-weight: Bold;
+    src: url('../src/fonts/SF-UI-Text-Bold.ttf');
+    }
+
+@font-face {
+    font-family: 'SF_UI_Text_Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../src/fonts/SF-UI-Text-Regular.ttf');
+    }
+
+@font-face {
+    font-family: 'SF_UI_Text_SemiBold';
+    font-style: normal;
+    font-weight: 550;
+    src: url('../src/fonts/SF-UI-Text-Semibold.ttf');
+    }
+
+    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+}
+
+body .Home {
+    background-color: #151B2B;
+    height: 100vh;
+    width: 100%;
+}
+
+body .first_block {
+    height: 100%;
+    width: 100%;
+    margin:0 auto;
+    max-width: 1400px;
+}
+
+.first_block .first_block_left_part, .first_block .first_block_right_part{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.first_block .first_block_left_part {
+    float:left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+}
+
+.first_block .first_block_left_part h2 {
+    font-family: HK_Grotesk_Extra_Bold;
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+.first_block .first_block_right_part {
+    float:right;
+}
+
+.first_block .first_block_left_part img {
+    height: 50px;
+}
+
+.first_block .first_block_left_part h1 {
+    color: #A8A8C1;
+    font-size: 2em;
+    font-family: HK_Grotesk_Extra_Bold;
+}
+
+.logo {
+    width: 300px;
+}
+
+.logo img {
+    float: left;
+}
+
+.text_first_block_left_part p:first-of-type {
+    font-family: HK_Grotesk_SemiBold_Legacy;
+    color: #F9F9FD;
+    font-size: 1.5em;
+}
+
+.second_block_first_part h2 {
+    font-family: HK_Grotesk_Extra_Bold;
+    color: #454658;
+    margin: 4em 0 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.second_block_first_part p {
+    font-family: SF_UI_Text_Regular;
+    color: #454658;
+    text-align: center;
+}
+
+.page {
+    max-width: 1400px;
+    margin: 0 auto;
+}

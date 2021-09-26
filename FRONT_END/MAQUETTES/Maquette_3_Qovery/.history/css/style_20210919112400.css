@@ -1,0 +1,98 @@
+/* ----- TABLE DES STYLES ----- */
+/* FONT IMPORT                  */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+
+/* FONT IMPORT */
+@font-face {
+    font-family: 'HK_Grotesk_SemiBold_Legacy';
+    font-style: normal;
+    font-weight: 550;
+    src: url('../src/fonts/HKGrotesk-SemiBoldLegacy.otf');
+    }
+
+@font-face {
+    font-family: 'HK_Grotesk_Extra_Bold';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../src/fonts/HKGrotesk-ExtraBold.otf');
+    }
+    
+@font-face {
+    font-family: 'HK_Grotesk_Bold';
+    font-style: normal;
+    font-weight: Bold;
+    src: url('../src/fonts/HKGrotesk-Bold.otf');
+    }
+
+@font-face {
+    font-family: 'Hack_Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../src/fonts/Hack-Regular.ttf');
+    }
+
+@font-face {
+    font-family: 'SF_UI_Text_Bold';
+    font-style: normal;
+    font-weight: Bold;
+    src: url('../src/fonts/SF-UI-Text-Bold.ttf');
+    }
+
+@font-face {
+    font-family: 'SF_UI_Text_Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../src/fonts/SF-UI-Text-Regular.ttf');
+    }
+
+@font-face {
+    font-family: 'SF_UI_Text_SemiBold';
+    font-style: normal;
+    font-weight: 550;
+    src: url('../src/fonts/SF-UI-Text-Semibold.ttf');
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+}
+
+body .landing_page {
+    background-color: #151B2B;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing_page .left_block, .landing_page .right_block{
+    width: 50%;
+}
+
+.landing_page .left_block img {
+    height: 50px;
+}
+
+.landing_page .left_block h1 {
+    color: #A8A8C1;
+    font-family: HK_Grotesk_Extra_Bold;
+}
+
+.logo {
+    width: 300px;
+}
+
+.logo img {
+    float: left;
+}

@@ -1,0 +1,46 @@
+/* ----- TABLE DES STYLES ----- */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+
+    @font-face {
+    font-family: 'HK_Grotesk_SemiBold_Legacy';
+    font-style: normal;
+    font-weight: SemiBold;
+    src: local('HK Grotesk SemiBold Legacy'), url('../src/fonts/HKGrotesk-SemiBoldLegacy.otf') format('otf');
+    }
+
+    @font-face {
+    font-family: 'HK_Grotesk_Extra_Bold';
+    font-style: normal;
+    font-weight: ExtraBold;
+    src: local('HK Grotesk SemiBold Legacy'), url('../src/fonts/HKGrotesk-ExtraBold.otf') format('otf');
+    }
+
+    @font-face {
+    font-family: 'HK_Grotesk_Bold';
+    font-style: normal;
+    font-weight: Bold;
+    src: local('HK Grotesk SemiBold Legacy'), url('../src/fonts/HKGrotesk-Bold.otf') format('otf');
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body .landing_page {
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+}
+
+.landing_page h1 {
+    color: #A8A8C1;
+    font-family: ;
+}

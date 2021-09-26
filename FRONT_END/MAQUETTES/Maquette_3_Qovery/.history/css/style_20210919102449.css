@@ -1,0 +1,19 @@
+/* ----- TABLE DES STYLES ----- */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body .landing_page {
+    margin: 0 auto;
+    display: flex;
+}

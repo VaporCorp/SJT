@@ -1,0 +1,30 @@
+/* ----- TABLE DES STYLES ----- */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+
+@font-face {
+    font-family: HK-Grotesk;
+    src: url(../src/fonts/*);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body .landing_page {
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+}
+
+.landing_page h1 {
+    color: #A8A8C1;
+    font-family: HK-Grotesk;
+}
