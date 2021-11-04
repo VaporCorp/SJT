@@ -15,13 +15,13 @@ h1 {
 nav {
     height:90%;
     display:flex;
+    flex-direction: column;
 }
 
 nav ul {
-    padding: 4em;
+    padding: 2em;
     display: flex;
     margin:0 auto;
-    justify-content: space-evenly;
     list-style: none;
     flex-direction: column;
     justify-content: space-between;
