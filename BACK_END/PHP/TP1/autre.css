@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding:0;
+    max-width: 1440px;
+    margin:0 auto;
+}
+body{
+    background-color: #FFFFFF;
+}
+header{
+    position: static;
+    position: relative;
+}
+header p{
+    font-size: 24px;
+    color: #252B42;
+    font-weight: bolder;
+    position: absolute;
+    left:3em;
+    top:1em;
+    width: 145px;
+}
+header nav{
+    font-size: 14px;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    
+}
+header nav ul{
+    border: #FFFFFF solid;
+    width: 60%;
+}
+header nav li{
+    display:inline-block;
+    padding:2em;
+}
+header li a{
+    color: #737373;
+    text-decoration: none;
+}
+header .button{
+    position: relative;
+    display: flex;   
+}
+header  .login a{
+    color: #96BB7C;
+    font-size: 14px;
+    position: absolute;
+    width: 41px;
+    height: 22px;
+    right:30%;
+    top:2em;
+    text-decoration: none;
+    z-index: 3; 
+}
+header .button .join-us{
+    padding:1em;
+    align-items: center;
+    padding: 15px 25px;
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    right:15%;
+    top: 0.5em;
+    border: #96BB7C solid;
+    border-radius: 5px ;
+    background-color: #96BB7C;
+    z-index: 3;
+}
+header .join-us a{
+    color: #FFFFFF;
+
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 3;
+}
+header .join-us a:after{
+    content:"" ;
+}
+main .debut{
+    position: relative;
+}
+main .debut .titiana{
+    background-color:#EAFB9C;
+    width: 1220px;
+    height:617px;
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 95px;
+}
+main .debut .titiana:after{
+    content: "";
+    background-color:#B4F2F7 ;
+    width: 703px;
+    height: 543.79px;
+    z-index: 2;
+    position: absolute;
+    right: -16%;
+    top: -20%;
+}
+main .titiana .text{
+    position: relative;
+}
+main .titiana p:first-of-type{
+    color: #96BB7C;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    width: 122px;
+    height: 24px;
+    left: 10em;
+    top: 10em;
+}
+main .titiana h1{
+    font-weight: bold;
+    font-size: 58px;
+    position: absolute;
+    width: 542px;
+    height: 160px;
+    left: 2.7em;
+    top: 4em;
+}
+main .titiana p:nth-of-type(2){
+    font-weight: normal;
+    font-size: 20px;
+    color:#737373;
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 7.7em;
+    top: 20em;
+}
+main .titiana .quote{
+    border:#96BB7C solid;
+    border-radius: 5px;
+    background-color: #96BB7C;
+    position: absolute;
+    left: 0%;
+    right: 65%;
+    top: 34em;
+    bottom: 0%;
+    width: fit-content;
+    padding: 2em;
+}
+main .quote{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 5px;
+    text-decoration:none;
+}
+main .titiana .learn{
+    border:#96BB7C solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 0%;
+    right: 35%;
+    top: 34em;
+    bottom: 0%;
+    width: fit-content;
+    padding: 2em;
+}
+main .learn{
+    font-weight: bold;
+    font-size: 14px;
+    color: #96BB7C;
+    text-align: center;
+    line-height: 5px;
+    text-decoration: none;
+}
+
+main .titiana img{
+    position: absolute;
+    left: 60%;
+    right: 0;
+    top: -8%;
+    bottom: 0.08%;
+    width:625.65px;
+    z-index: 3;   
+}
+main .all{   
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 35px 40px;
+    margin-bottom: 76px;
+}
+main .all .teacher{
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    background: #FFFFFF;
+    position: absolute;
+    width: 328px;
+    height: 296px;
+    left: 5em;
+    top:43em;
+    z-index: 3;
+}
+main .teacher img{
+    width: 100px;
+    position: absolute;
+    left:1.5em;
+    top:1em;
+}
+main .teacher h2{
+    color: #252B42;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    width: 213px;
+    height: 32px;
+    left: 40px;
+    top: 127px;
+}
+main .teacher hr{
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    left: 40px;
+    top: 179px;
+    background-color: #E74040;
+}
+main .teacher p{
+    font-weight: normal;
+    font-size: 14px;
+    position: absolute;
+    width: 222px;
+    height: 60px;
+    left: 40px;
+    top: 201px;
+}
+main .all .online{
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    background: #FFFFFF;
+    position: absolute;
+    width: 328px;
+    height: 296px;
+    left: 28em;
+    top:43em;
+    z-index: 3;
+}
+main .online img{
+    width: 100px;
+    position: absolute;
+    left:1.5em;
+    top:1em;
+}
+main .online h2{
+    color: #252B42;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    width: 257px;
+    height: 32px;
+    left: 40px;
+    top: 127px;
+}
+main .online hr{
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    left: 40px;
+    top: 179px;
+    background-color: #E74040;
+}
+main .online p{
+    font-weight: normal;
+    font-size: 14px;
+    position: absolute;
+    width: 222px;
+    height: 60px;
+    left: 40px;
+    top: 201px;
+}
+main .all .courses{
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    background: #FFFFFF;
+    position: absolute;
+    width: 328px;
+    height: 296px;
+    left: 51em;
+    top:43em;
+    z-index: 3;
+}
+main .courses img{
+    width: 100px;
+    position: absolute;
+    left:1.5em;
+    top:1em;
+}
+main .courses h2{
+    color: #252B42;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    width: 257px;
+    height: 32px;
+    left: 40px;
+    top: 127px;
+}
+main .courses hr{
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    left: 40px;
+    top: 179px;
+    background-color: #E74040;
+}
+main .courses p{
+    font-weight: normal;
+    font-size: 14px;
+    position: absolute;
+    width: 222px;
+    height: 60px;
+    left: 40px;
+    top: 201px;
+}
