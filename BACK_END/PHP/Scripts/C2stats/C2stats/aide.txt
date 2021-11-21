@@ -1,0 +1,137 @@
+
+ Script réalisé par Steve TENZA (c2script.com), mis à la disposition de tous gratuitement et où tous le monde peut contribuer a son évolution gratuitement!
+ Permet d'avoir des statistiques journalières, mensuelle et annuelles du site où il est utilisé
+
+ Donne des informations sur:
+ - le total des visiteurs
+ - le nombre de pages vues
+ - la moyenne de page visitées par visite
+ - les sites référant (arrivé depuis quel site)
+ - les pages qui sont partagées sur les réseaux sociaux
+ - le navigateur et le système d'exploitation utilisé
+ - les robots qui ont crawlés le site et les pages crawlées
+ - le nombre d'utilisateurs sur mobiles
+ - la page visitée en premier par le visiteur
+
+
+ version: 1.1, maj le 27/03/2020
+
+
+----------------------------------------------
+-- Infos sur les fichiers présents à la racine
+----------------------------------------------
+
+- config.php (permet la configuration du script)
+- fonctions.php (fonctions nécessaires au script)
+- footer-script.php (permet de faire fonctionner le script, plus d'infos à la section "installation", plus bas)
+- index.php (affiche les statistiques)
+- statsjq.php (appel des stats en AJAX pour les afficher sur index.php)
+- ips.txt (sauvegarde les IP des visiteurs, chaque jour remis à zéro (vidé) pour être archivé via CRON)
+
+
+
+-------------------------
+-- Installation du script
+-------------------------
+
+Pour faire fonctionner le script vous devez: (3 étapes)
+
+1. Envoyer le dossier C2stats à la racine de votre site
+
+2. Mettre en place le code suivant sur toutes les fins de pages de votre site, après </html>:
+---------------------------------------------------------------------------------------------
+
+/*
+* Code C2stats à inclure à chaque fin de page du site internet
+*/
+//cette fonction sert à trouver le chemin vers nos fichiers
+if(!function_exists('C2chemin')){
+	function C2chemin(){
+		$dossier=substr_count($_SERVER['SCRIPT_NAME'],'/')-1;//site.ext/dossier/dossier/ = 3. site.ext/dossier/ = 2
+		$return='';
+		if($dossier>0){
+			for($i=1;$i<=$dossier;$i++)$return.='../';//on ajoute le chemin "../" autant de fois qu'il y a de dossier pour revenir à la racine
+		}
+		return $return;
+	}
+}
+define('C2STATS',1);//une sécurité pour pouvoir inclure le fichier footer-script.php
+include C2chemin().'C2stats/footer-script.php';
+/*
+* Fin du code C2stats
+*/
+
+
+
+3. Programmer la tache cron suivante:
+-------------------------------------
+
+- A lancer chaque jour, à minuit ou dans la première heure de la journée:
+C2stats/cron/jour.php
+
+
+Une fois terminé, vous pouvez accéder aux stats via l'adresse: votresite/C2stats
+
+
+
+
+-------------------------------------
+-- Infos sur le dossier /txt/listes/:
+-------------------------------------
+
+les fichiers txt de ce dossier contiennent des informations sur le user_agent et sont analysés ligne par ligne, de haut en bas, par le script pour en afficher les détails
+
+
+
+bots.txt (robots)
+--------
+
+- Contient tous les bots connus
+- 1 bot/ligne, aucune ligne ne doit être vide!
+- Si vous souhaitez en rajouter, le mettre sur une nouvelle ligne et faire attention qu'il ressemble pas à un déjà inscrit, si il ressemble (ex: MyBot ressemble à ThisMyBot) mettre MyBot après ThisMyBot pour qu'il soit pas confondu (la recherche se faisant de haut en bas), dans cette optique, certains sont en bas parce qu'ils ressemble à beaucoup d'autres car ils ont un nom avec très peu de lettres
+
+Astuce:
+
+- Mettre les robots les plus connus en haut de la liste pour optimiser le temps de recherche
+
+
+
+ignores.txt
+-----------
+
+- Contient tous les user_agent ignorés
+- doit être sous forme d'expression régulière, ex: ^ma chaine$, sans délimiteur, les \ doivent être échappés avec deux \\ (\ => \\\)
+- 1/ligne, aucune ligne vide!
+
+
+
+reseaux-sociaux.txt
+-------------------
+
+- Contient les réseaux sociaux les plus connus, permet de les reconnaitre et d'avoir des infos des pages partagées
+
+
+
+nouveaux-ua.txt, nouveaux-deja-envoyes.txt et cron/jour.php
+-----------------------------------------------------------
+
+- Contient les nouveaux user_agent qui ne sont pas analysable car non reconnus par le script actuel
+- le script vous envoi un mail chaque 1er du mois pour vous avertir des nouveaux UA trouvés (via le fichier cron/jour.php)
+- Pour désactiver l'envoi du mail: config.php => $C2STATS['envoyer_mail']=0;
+
+- afin de participer à l'évolution du script, si vous voulez, chaque mois, un mail me sera aussi envoyé pour que je mette à jour le script avec les nouveaux user_agent que votre site trouvera, je les analyserais et mettrais à disposition la nouvelle version du script sur c2script.com
+- nouveaux-deja-envoyes.txt permet d'enregistrer les nouveaux qui sont envoyés, pour ne pas vous/me les renvoyer
+- Vous pouvez désactiver l'envoi de mon mail: fichier config.php => $C2STATS['contribuer']=0;
+
+
+
+
+
+---------------------------------------
+-- Infos sur le dossier /txt/archives/:
+---------------------------------------
+
+- Contient toutes les archives de statistiques, classées par année et par mois sous forme: txt/archives/année/mois/[ici les fichiers de statistiques journalières]
+- Chaque dossier /mois/ contient les jours déjà passés du mois, sous forme "01.txt, 02.txt...", ces fichiers sont annalysés par le script pour les afficher en détails
+
+

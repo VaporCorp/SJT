@@ -1,0 +1,3 @@
+05/06/2020
+ - MAJ style CSS (index.php)
+ - Erreur solutionnée pour PHP 7.3 >, "A non well formed numeric value encountered" (footer-script.php)

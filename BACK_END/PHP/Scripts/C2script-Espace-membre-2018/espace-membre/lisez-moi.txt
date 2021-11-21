@@ -1,0 +1,24 @@
+J'ai mis plusieurs cas de figure pour que vous puissiez comprendre un peu comment traiter différentes informations en PHP
+
+L'espace comprend:
+ - Une page d'accueil avec le choix d'aller sur la page d'inscription ou de connexion
+ - Une page d'inscription
+ - Une page de connexion
+ - Une page espace membre
+ - Un système de modification du compte (mot de passe et adresse mail)
+ - La possibilité de supprimer son compte
+ - Une page de déconnexion
+
+Vous devez créer la table SQL "membre", avec le code suivant:
+
+CREATE TABLE `membres` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `pseudo` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  `mdp` char(32) COLLATE utf8_unicode_ci NOT NULL,
+  `mail` varchar(50) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+Ou importer le fichier membres.sql dans votre phpMyAdmin
+
+___________________________________________________________
+Réalisé par Steve, disponible gratuitement sur c2script.com

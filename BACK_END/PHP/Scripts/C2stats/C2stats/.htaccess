@@ -1,0 +1,3 @@
+<Files "ips.txt">
+deny from all
+</Files>

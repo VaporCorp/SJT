@@ -1,0 +1,480 @@
+007AC9
+12345
+360Spider
+AHC
+ActiveBookmark
+ActiveRefresh
+Ad Muncher
+AdSense
+Adbeat
+AdBot
+AddThis.com
+AdminLabs
+AdsBot-Google-Mobile
+AdsBot-Google
+adscanner
+AdsTxtCrawler
+adstxtlab.com
+AgentName
+AhrefsBot
+aiHitBot
+Alamofire
+Alexa Site Audit
+alexa
+Alignabot
+AlphaBot
+Amazon CloudFront
+Amiga
+AnyEvent
+Apache HttpClient
+AppEngine-Google
+Applebot
+ArchiveBot
+archive.org
+arquivo
+asafaweb.com
+AspiegelBot
+asynchttp
+axios
+Azureus
+bandscraper
+BDFetch
+BITS
+BLEXBot
+BOT for JCE
+BUbiNG
+Baiduspider-image
+Baiduspider
+Barkrowler
+BegunAdvertising
+bidswitchbot
+BingPreview
+Bing
+binlar
+Bitly
+Blackboard Safeassign
+Bluecoat
+bl.uk_lddc_bot
+BoardReader Favicon Fetcher
+BoardReader
+BorderManager
+BrandVerity
+BrokenLinkCheck
+BrowseX
+Browsershots
+CATExplorador
+CCBot
+CKHttpGenerator
+CMS Crawler
+CakePHP
+Camo Asset Proxy
+Catchpoint
+CheckLinks
+CheckMarkNetwork
+CheckSite Verification Agent
+Chrome-Lighthouse
+Clickagy Intelligence
+Cliqzbot
+Cloud mapping
+CloudFlare AMP
+CloudFlare-AlwaysOnline
+CloudFlare
+Coccoc
+Cocolyzebot
+cocrawler
+Comodo SSL Checker
+contxbot
+crawler4j
+Crazyweb
+Custom
+cXensebot
+DAP
+Datagnion
+Dataprovider
+Daumoa
+Daum
+deadlinkchecker
+deusu.de
+Diffbot
+Digg Feed Fetcher
+Dispatch
+DocBase
+DomainCrawler
+DomainSONOCrawler
+DomainSigma
+DomainStatsBot
+DotBot
+Download Master
+Drupal
+DuckDuckGo-Favicons
+DuckDuck
+EasouSpider
+Easy-Thumb
+EasyBib AutoCite
+Echobox
+Elefent
+Elmer
+Embedly
+Entireweb
+eventures
+Evernote
+Exabot-Thumbnails
+Exabot
+FAST-Web
+FDM
+Faraday
+fasthttp
+FeedBurner
+FeedDemon
+FeedValidator
+Feedfetcher-Google
+FeedlyBot
+feedly
+Feedshow
+FlashGet
+FreeSafeIP.com
+FreeWebMonitoring
+fuelbot
+GG Peek
+GTmetrix
+GWPImages
+Gaisbot
+Garlik
+Genieo
+GetLinkInfo
+Getintent
+Gigablast
+Gigabot
+Gluten Free
+go-http-client
+GomezAgent
+gooblog
+goose
+Google Favicon
+Google Page Speed Insights
+Google Search Console
+Google Web Preview
+Google Wireless Transcoder
+Google-Adwords-DisplayAds-WebRender
+Google-Apps-Script
+Google-HTTP-Java-Client
+Google-Image
+Google-SearchByImage
+Google-Site-Verification
+Google-Sitemaps
+Google-Structured-Data-Testing-Tool
+GoogleBot
+GoogleToolbar
+Googlebot-Mobile
+Googlebot-Video
+Google
+Grammarly
+Grapeshot
+GreenBrowser
+Gregarius
+GroupHigh
+Guzzle
+Hatena-Favicon
+Hatena-Mobile-Gateway
+Hatena::Scissors
+Hatena::UserAgent
+Heritrix
+HggH
+http_requester
+httpclient
+HttpUnit
+HubPages
+HubSpot
+ia_archiver
+IAS Crawler
+ICC-Crawler
+INetURL
+Ichiro
+Iframely
+Impact Radius
+Infegy
+infoX-WISG
+Internet-structure-research-project-bot
+ips-agent
+IrssiUrlLog
+Istella
+Jakarta
+James BOT
+Java
+Jersey
+JetBrains Omea
+JetBrains
+Jigsaw
+JobBoerse
+KomodiaBot
+kulturarw3
+Leikibot
+Let's Encrypt
+Letsearch
+libwww
+Liferea
+LightspeedSystems
+LinkCheck by Siteimprove
+LinkWalker
+Linkdex
+Linkfluence
+Linkis
+Linkpad
+Livelap
+LongURL
+ltx71
+Lua-resty
+Lucidworks
+lwp
+MAZBot
+MBCrawler
+MJ12
+MagpieRSS
+magpie
+Mail.Ru
+MailChimp
+Mappy
+Marketing Grader
+Marketwire
+Masscan
+Match by Siteimprove
+MaxPoint
+Mechanize
+Mediatoolkit
+MegaIndex
+MetaInspector
+MetaJob
+MetaURI
+Microsoft Data Access
+Microsoft Office Existence Discovery
+Microsoft Office Protocol
+Microsoft URL Control
+Microsoft Windows Network Diagnostics
+Microsoft-WebDAV
+MirrorDetector
+Mixrank
+Moatbot
+Mojeek
+Moreover
+Morfeus Fucking Scanner
+MovableType
+msnbot-media
+msnbot
+My Browser
+Naver
+netEstate NE
+NetNewsWire
+NetSeer
+NetSurf
+Netcraft Web
+NetcraftSurveyAgent
+Netvibes
+NewsBlur
+NewsFox
+NewsGator
+NewsGatorOnline
+newspaper
+Nimbostratus
+Nmap Scripting Engine
+node-fetch
+node-superagent
+notifyninja
+Nutch
+Nuzzel
+okhttp
+OSSProxy
+OffByOne
+Offline Explorer
+Omgili
+Online Domain Tools
+Open Web Analytics
+OpenLinkProfiler
+OpenWebSpider
+Optimizer
+panscient
+PEAR HTTP_Request
+pear.php
+POE-Component-Client-HTTP
+PR-CY.RU
+PTST
+Pandalytics
+PaperLi
+Phantom.js
+Photon
+PingAdmin.ru
+PingdomPageSpeed
+PingdomTMS
+Plukkie
+pmoz.info
+PocketParser
+PostmanRuntime
+Powermarks
+Prlog
+proximic
+publiclibraryarchive
+PycURL
+python-requests
+Python-urllib
+Python
+QQDownload
+Qualidator.com
+Qwantify
+R6 CommentReader
+R6 FeedFetcher
+RSSOwl
+RamblerMail
+RankFlex
+raynette
+Reddit
+Riddler
+Rippers
+Rogerbot
+Ruby
+Ryte
+SBL-BOT
+SBooksNet
+Seekport
+SEOdiver
+SEOkicks
+seoscanners
+SEOstats
+SMTBot
+SVN
+SafeDNS
+ScoutJet
+Scrapy
+Screaming Frog
+Screenshot Bot
+SearchAtlas
+Semrush
+SeoSiteCheckup
+Seobility
+Seznam screenshot
+SeznamEmailProxy
+Seznam
+shareaza
+Short URL Checker
+ShortLinkTranslate
+ShrinkTheWeb
+SimplePie
+SimpleScraper
+SiteExplorer
+SiteSucker
+SiteTruth
+Slack-ImgProxy
+Slackbot-LinkExpanding
+Slackbot
+Socialrank.io
+Sogou Pic
+Sogou web
+Sosospider
+Space Bison
+special_archiver
+Splash
+Sprinklr
+SpyOnWeb
+ssearch_bot
+StatusCake
+Steeler
+StumbleUpon
+Surdotly
+SurveyBot
+Synapse
+Taringa
+Teoma
+Test Certificate Info
+The Knowledge AI
+theoldreader
+ThumbShotsBot
+Thumbor
+TinEye
+Tiny Tiny RSS
+TinyURL
+Toutiao
+Traackr
+tracemyfile
+Transmission
+Trendiction
+Turnitin
+Twingly Recon
+Typhoeus
+ubermetrics
+Uipbot
+Uipcrawler
+UniversalFeedParser
+UptimeRobot
+Uptimebot
+uTorrent
+vBSEO
+vBulletin via PHP
+VSE
+Vagabondo
+Validator.nu/LV
+Vebidoo
+VoilaBot
+W3C-checklink
+W3CLineMode
+W3C_CSS_Validator
+W3C_Unicorn
+W3C_Validator
+Wappalyzer
+Wayback
+WebCapture
+webceo
+WebCopier
+WebCorp
+webkit2png
+WebZIP
+Webglance
+WhatWeb
+Widget Server
+Willow Internet
+WinHttp
+Windows-RSS-Platform
+wmtips
+woorank
+Wotbox
+Xaldon
+Xenu Link Sleuth
+Xovi
+Y!J-ASR
+yacybot
+YaDirectFetcher
+Yahoo Ad monitoring
+Yahoo Link Preview
+Yahoo! Slurp
+YahooCacheSystem
+YahooMailProxy
+Yahoo
+YandexAccessibility
+YandexBlogs
+YandexBot
+YandexCalendar
+YandexDirectDyn
+YandexFavicons
+YandexImageResizer
+YandexImages
+YandexMedia
+YandexMetrika
+YandexMobile
+YandexPagechecker
+YandexScreenshot
+YandexSitelinks
+YandexVertis
+YandexVideoParser
+YandexVideo
+YandexWebmaster
+Yandex
+Yisou
+yoozBot
+YOURLS
+ZDM
+Zend_Http_Client
+zgrab
+ZmEu
+Zombiebot
+ZoomBot
+ZumBot
+cURL
+linkCheck
+oBot

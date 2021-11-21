@@ -1,0 +1,10 @@
+^USER_AGENT$
+^AGENT$
+^Java/[0-9.]+$
+^Mozilla/[0-9.]+$
+^Chrome/[0-9.]+$
+^Internet Explorer$
+^PHP$
+^\[not set HTTP_USER_AGENT\]$
+^admin$
+^Zend\\\Http\\\Client$
