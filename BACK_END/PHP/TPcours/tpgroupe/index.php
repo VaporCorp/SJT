@@ -7,11 +7,18 @@ $resultat = mysqli_query($connexionMySql, $req);
 $final = mysqli_fetch_all($resultat, MYSQLI_ASSOC);
 
 ?>
-
-<table border="1">
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+</head>
+<header>
+    <img>
+    <h1>Pokémon</h1>
+</header>
+<table>
     <?php
     echo "<tr>";
-    foreach($final['1'] as $key => $value){
+    foreach($final['0'] as $key => $value){ //Passer le '0' en '1' si ça ne fonctionne pas
         echo "<th>".$key."</th>";
     }
     echo "</tr>";
@@ -27,6 +34,7 @@ $final = mysqli_fetch_all($resultat, MYSQLI_ASSOC);
                 </form>
             </td>";
         echo "</tr>";
-        }?>
+    }?>
 </table>
 <a href="pageajout.php"><button>Ajouter un pokémon</button></a>
+</html>
