@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  font-weight: bold;
+}
+
+body {
+  font-family: Sans-serif;
+}
+
+header {
+  width: 100vw;
+  padding: 2em 0;
+  background-color: #F44336;
+  position: fixed;
+}
+header h1 {
+  text-align: center;
+  color: white;
+}
+
+main {
+  background-image: url("images/fond_pokemon.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.tableau {
+  background-color: #F44336;
+  border-radius: 3em;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.tableau table {
+  border-spacing: 0px;
+}
+.tableau table thead, .tableau table tbody {
+  display: block;
+}
+.tableau table tbody {
+  height: 600px;
+  overflow: auto;
+}
+.tableau table th {
+  color: white;
+}
+.tableau table th, .tableau table td {
+  padding: 1em;
+}
+.tableau table tr:nth-of-type(2n+2) {
+  background-color: #f67f75;
+}
+.tableau table td .sprite {
+  width: auto;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+.tableau .suppression input {
+  padding: 0.25rem 0.75rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.ajout {
+  background-color: #F44336;
+  border-radius: 3em;
+  padding: 2em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.button, button {
+  margin-top: 1em;
+  border-radius: 10px;
+  background-color: white;
+  padding: 1em;
+}
+
+.type {
+  padding: 0.35rem 0.85rem;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.Electrique {
+  background-color: #EED535;
+  color: black;
+}
+
+.Plante {
+  background-color: #9BCC50;
+}
+
+.Poison {
+  background-color: #b97fc9;
+}
+
+.Feu {
+  background-color: #fd7d24;
+}
+
+.Vol {
+  background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+}
+
+.Eau {
+  background-color: #4592c4;
+}
+
+.Insecte {
+  background-color: #729f3f;
+}
+
+.Normal {
+  background-color: #a4acaf;
+  color: black;
+}
+
+.Sol {
+  background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+  color: black;
+}
+
+.Fee {
+  background-color: #fdb9e9;
+}
+
+.Combat {
+  background-color: #d56723;
+}
+
+.Psy {
+  background-color: #f366b9;
+}
+
+.Roche {
+  background-color: #a38c21;
+}
+
+.Acier {
+  background-color: #9eb7b8;
+  color: #212121;
+}
+
+.Glace {
+  background-color: #51c4e7;
+  color: #212121;
+}
+
+.Tenebres {
+  background-color: #707070;
+}
+
+.Spectre {
+  background-color: #7b62a3;
+}
+
+.Dragon {
+  background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+}
+
+/*# sourceMappingURL=style.css.map */
