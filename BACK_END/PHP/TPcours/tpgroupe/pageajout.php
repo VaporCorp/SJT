@@ -6,6 +6,14 @@ $req = 'SELECT * FROM pokemon';
 $resultat = mysqli_query($connexionMySql, $req);
 $final = mysqli_fetch_all($resultat, MYSQLI_ASSOC);
 ?>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+</head>
+<header>
+    <img>
+    <h1>Pokémon</h1>
+</header>
 <form method="POST" action="scripts/create.php">
     <label>ID du pokémon : </label>
     <input type="number" name="id">
@@ -20,7 +28,7 @@ $final = mysqli_fetch_all($resultat, MYSQLI_ASSOC);
         $types = mysqli_query($connexionMySql, $types);
         $types = mysqli_fetch_all($types, MYSQLI_ASSOC);
         foreach ($types as $type) {?>
-            <option><?= $type['Type'] ?></option>
+            <option><?= $type['type'] ?></option> <!-- Passer le type en Type si ça ne fonctionne pas -->
         <?php }?>
     </select>
     <br>
@@ -31,7 +39,7 @@ $final = mysqli_fetch_all($resultat, MYSQLI_ASSOC);
         $types = mysqli_query($connexionMySql, $types);
         $types = mysqli_fetch_all($types, MYSQLI_ASSOC);
         foreach ($types as $type) {?>
-            <option><?= $type['Type'] ?></option>
+            <option><?= $type['type'] ?></option>
         <?php }?>
     </select>
     <br>
@@ -41,5 +49,6 @@ $final = mysqli_fetch_all($resultat, MYSQLI_ASSOC);
     <label>Taille : </label>
     <input type="float" name="taille">
     <br>
-    <input type="submit" value="Ajouter le pokémon">
+    <input type="submit" value="Ajouter le pokémon" class="Ajout">
 </form>
+</html>
