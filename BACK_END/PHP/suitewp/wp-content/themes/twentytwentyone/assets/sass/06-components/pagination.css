@@ -1,0 +1,32 @@
+/* Error: Undefined mixin.
+ *    ,
+ * 43 | /         @include media(tablet) {
+ * 44 | |             display: flex;
+ * 45 | |             justify-content: center;
+ * 46 | |             flex-wrap: wrap;
+ * 47 | | 
+ * 48 | |             .nav-next,
+ * 49 | |             .nav-previous {
+ * 50 | |                 flex: 0 1 auto;
+ * 51 | |                 margin-bottom: inherit;
+ * 52 | |                 margin-top: inherit;
+ * 53 | |                 max-width: calc(50% - (0.5 * var(--global--spacing-unit)));
+ * 54 | |             }
+ * 55 | | 
+ * 56 | |             .nav-next {
+ * 57 | |                 text-align: right;
+ * 58 | |             }
+ * 59 | \         }
+ *    '
+ *   pagination.scss 43:3  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 43 \2502  \250c          @include media(tablet) {\a 44 \2502  \2502              display: flex;\a 45 \2502  \2502              justify-content: center;\a 46 \2502  \2502              flex-wrap: wrap;\a 47 \2502  \2502  \a 48 \2502  \2502              .nav-next,\a 49 \2502  \2502              .nav-previous {\a 50 \2502  \2502                  flex: 0 1 auto;\a 51 \2502  \2502                  margin-bottom: inherit;\a 52 \2502  \2502                  margin-top: inherit;\a 53 \2502  \2502                  max-width: calc(50% - (0.5 * var(--global--spacing-unit)));\a 54 \2502  \2502              }\a 55 \2502  \2502  \a 56 \2502  \2502              .nav-next {\a 57 \2502  \2502                  text-align: right;\a 58 \2502  \2502              }\a 59 \2502  \2514          }\a    \2575 \a   pagination.scss 43:3  root stylesheet";
+}
