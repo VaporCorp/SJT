@@ -1,0 +1,1 @@
+Bonjour, <?php echo htmlspecialchars($_GET['nom']); echo htmlspecialchars($_GET['nom'])?>.

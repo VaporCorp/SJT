@@ -1,0 +1,24 @@
+{
+  "name": "teluro/teluro-theme",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "TeluroWP",
+      "email": "support@teluro.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TeluroWP\\Theme\\": "src/"
+    },
+    "files": [
+      "template-functions.php"
+    ]
+  },
+  "require": {
+    "colibriwp/themebase": "^0.2.0"
+  },
+  "config": {
+    "platform-check": false
+  }
+}

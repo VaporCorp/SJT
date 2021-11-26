@@ -1,0 +1,356 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Honeypress Dark\n"
+"POT-Creation-Date: 2021-08-30 18:53+0530\n"
+"PO-Revision-Date: 2020-08-026 11:22+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/inc/class-spicethemes-about-page.php:70
+#: admin/inc/include-companion.php:41 admin/inc/plugin-include-control.php:40
+msgid "Installing"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:71
+#: admin/inc/include-companion.php:42 admin/inc/plugin-include-control.php:41
+msgid "Activating"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:72
+#: admin/inc/include-companion.php:43 admin/inc/plugin-include-control.php:42
+msgid "Error"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:111
+msgid "View Theme Info"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:119
+#, php-format
+msgid "About %1$s %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:120
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:133
+#, php-format
+msgid ""
+"HoneyPress Dark theme is installed. To take full advantage of the features "
+"this theme has to offer visit our %1$s welcome page %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:134
+msgid "Get started with HoneyPress Dark theme"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:229
+#: admin/tab-pages/getting-started.php:21
+msgid "Getting Started"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:234
+msgid "Recommended Actions"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:242
+msgid "Support"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:315
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:317
+#: admin/inc/include-companion.php:81
+msgid "Install and activate"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:334
+#, php-format
+msgid "Activate %s now"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:336
+msgid "Activate"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:339
+msgid "Active"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:467
+#: admin/inc/include-companion.php:80 admin/inc/include-companion.php:97
+msgid "SpiceBox"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:469
+msgid ""
+"To access the advance Frontpage sections and other theme features, please "
+"install the SpiceBox plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:473
+msgid "Contact Form 7"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:475
+msgid ""
+"To display the contact form on the contact section in homepage, please "
+"install the Contact Form 7 plugin"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:479
+msgid "Yoast SEO"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:481
+msgid "To display breadcrumbs, please install the Yoast SEO plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:485
+msgid "Unique Headers"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:487
+msgid ""
+"You can add different banner image for a different page or post according "
+"to you"
+msgstr ""
+
+#: admin/inc/include-companion.php:79
+msgid ""
+"To take advantage of this theme's features in the customizer you need to "
+"install the SpiceBox plugin."
+msgstr ""
+
+#: admin/inc/include-companion.php:80
+msgid "Install SpiceBox Now"
+msgstr ""
+
+#: admin/inc/include-companion.php:96
+msgid ""
+"You have installed the SpiceBox plugin. To take advantage of this theme's "
+"features in the customizer, you need to activate it."
+msgstr ""
+
+#: admin/inc/include-companion.php:97
+msgid "Activate SpiceBox now"
+msgstr ""
+
+#: admin/inc/include-companion.php:98
+msgid "Activate now"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:10
+msgid "About the HoneyPress Dark theme"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:17
+msgid ""
+"This theme is ideal for creating corporate and business websites. "
+"HoneyPress Dark is a child theme of the HoneyPress WordPress theme. The "
+"premium version has tons of features like a homepage with many sections "
+"where you can feature unlimited slides, portfolios, user reviews, latest "
+"news, services, call to action and much more. Each section in the Homepage "
+"template is carefully designed to fit to all business requirements."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:19
+msgid ""
+"You can use this theme for any type of activity. HoneyPress Dark is "
+"compatible with popular plugins like WPML and Polylang for the translation."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:24
+msgid ""
+"To take full advantage of all the features this theme has to offer, "
+"install and activate the SpiceBox plugin. Go to Customize and install the "
+"SpiceBox plugin."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:26
+msgid "Go to the Customizer"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:32
+msgid "HoneyPress Dark theme"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:40
+msgid "Useful Links"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:46
+msgid "Lite Demo"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:52
+msgid "PRO Demo"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:58
+msgid "Theme Support"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:64
+msgid "Your feedback is valuable to us"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:70
+msgid "Premium Theme Details"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:77
+msgid "Theme Help Docs"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:84
+msgid "Free vs Pro"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:91
+#: admin/tab-pages/useful_plugins.php:20
+#: admin/tab-pages/useful_plugins.php:22
+msgid "Changelog"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:12
+#: admin/tab-pages/useful_plugins.php:14
+msgid "Contact Support"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:13
+msgid ""
+"We want to make sure you have the best experience using HoneyPress Dark, "
+"and that is why we have gathered all the necessary information here for "
+"you. We hope you will enjoy using HoneyPress Dark as much as we enjoy "
+"creating great products."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:21
+msgid ""
+"Want to get the gist on the latest theme changes? Just consult our "
+"changelog below to get a taste of the recent fixes and features "
+"implemented."
+msgstr ""
+
+#: functions.php:51
+msgid "Proudly powered by"
+msgstr ""
+
+#: functions.php:51
+msgid "https://wordpress.org"
+msgstr ""
+
+#: functions.php:51
+msgid "WordPress"
+msgstr ""
+
+#: functions.php:51
+msgid "| Theme:"
+msgstr ""
+
+#: functions.php:51
+msgid "https://spicethemes.com"
+msgstr ""
+
+#: functions.php:51
+msgid "HoneyPress Dark"
+msgstr ""
+
+#: functions.php:51
+msgid "by SpiceThemes"
+msgstr ""
+
+#: header.php:15
+msgid "Skip to content"
+msgstr ""
+
+#: inc/header/header-nav.php:11
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/header/header-nav.php:32 inc/header/header-nav.php:61
+msgid "Search"
+msgstr ""
+
+#: inc/header/header-nav.php:32 inc/header/header-nav.php:61
+msgid "search"
+msgstr ""
+
+#: inc/header/header-nav.php:32 inc/header/header-nav.php:61
+msgid "Search…"
+msgstr ""
+
+#: inc/header/header-nav.php:53
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: index-news.php:9
+msgid "Vitae Lacinia"
+msgstr ""
+
+#: index-news.php:10
+msgid "Cras Vitae Placerat"
+msgstr ""
+
+#: index-news.php:66 index-news.php:96
+msgid "By"
+msgstr ""
+
+#: index-news.php:73 index-news.php:104
+msgid "Read more"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Honeypress Dark"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://spicethemes.com/honeypress-dark-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"HoneyPress Dark WordPress Theme is a lightweight, elegant, fully "
+"responsive theme. Those who want the dark variation can use this theme. It "
+"allows you to create stunning blogs and websites. The theme is well suited "
+"for companies, law firms, e-commerce, finance, agency, travel, "
+"photography, design, arts, personal, and any other creative websites and "
+"blogs. It comes with a predesigned home page, good-looking header designs "
+"and a number of content sections that you can easily customize. It also "
+"has lots of customization options (banner, services, testimonial, etc) "
+"that will help you create a beautiful, unique website in no time. "
+"HoneyPress is compatible with popular plugins like WPML, Polylang, "
+"WooCommerce, and Contact Form 7."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "spicethemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://spicethemes.com/"
+msgstr ""

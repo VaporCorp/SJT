@@ -1,0 +1,31 @@
+<wpml-config>
+  <admin-texts>
+    <key name="current_theme"/>
+    <key name="theme_mods_honeypress">
+      <key name="0"/>
+      <key name="nav_menu_locations"/>
+      <key name="honeypress_related_post_title"/>
+      <key name="footer_copyright"/>
+      <key name="slider_image_overlay"/>
+      <key name="home_slider_title"/>
+      <key name="home_slider_discription"/>
+      <key name="home_slider_btn_txt"/>
+      <key name="home_slider_btn_link"/>
+      <key name="home_slider_btn_target"/>
+      <key name="home_slider_btn_txt2"/>
+      <key name="home_slider_btn_link2"/>
+      <key name="home_slider_btn_target2"/>
+      <key name="home_service_section_title"/>
+      <key name="home_service_section_discription"/>
+      <key name="honeypress_service_content"/>
+      <key name="home_news_section_title"/>
+      <key name="home_news_section_discription"/>
+      <key name="blog_meta_section_enable"/>
+      <key name="home_testimonial_section_title"/>
+      <key name="home_testimonial_section_discription"/>
+      <key name="home_testimonial_desc"/>
+      <key name="home_testimonial_title"/>
+      <key name="home_testimonial_designation"/>
+    </key>
+  </admin-texts>
+</wpml-config>
