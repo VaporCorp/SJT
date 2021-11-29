@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-serif;
+}
+
+header {
+  background-color: grey;
+  position: relative;
+  height: 4rem;
+  p {
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+    right: 0;
+    transform: translateY(50%);
+  }
+  img {
+    height: 4rem;
+    float: right;
+  }
+}

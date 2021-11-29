@@ -27,6 +27,6 @@
 
         echo "<h2>Pokémon en cours d'ajout dans la base de données</h2>";
 
-        header('Refresh: 3; URL=../index.php');?>
+        header('Refresh: 10; URL=../index.php');?>
     </div>
 </main>

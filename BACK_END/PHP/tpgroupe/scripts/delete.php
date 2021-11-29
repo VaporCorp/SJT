@@ -18,5 +18,5 @@ $reqdel = "DELETE FROM pokemon WHERE id=".$_POST['id'];
 $delete = mysqli_query($connexionMySql, $reqdel);
 echo "<h2>Pokémon en cours de suppression de la base de données</h2>";
 
-header('Refresh: 3; URL=../index.php');?>
+header('Refresh: 10; URL=../index.php');?>
 </main>
