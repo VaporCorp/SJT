@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 4rem;
+}
+header nav ul {
+  list-style: none;
+  display: inline-block;
+}
+header nav ul a {
+  padding: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */
