@@ -544,12 +544,12 @@ body .wp-block.alignfull .wp-block.alignfull {
 }
 @media only screen and (min-width: 768px) {
   .wp-block {
-    width: calc(8 * (100vw / 12));
+    width: 66.6666666667vw;
   }
 }
 @media only screen and (min-width: 1168px) {
   .wp-block {
-    width: calc(6 * (100vw / 12 ));
+    width: 50vw;
   }
 }
 .wp-block .wp-block {
@@ -822,7 +822,7 @@ figcaption,
 
 .wp-block[data-type="core/cover"][data-align=left] .editor-block-list__block-edit,
 .wp-block[data-type="core/cover"][data-align=right] .editor-block-list__block-edit {
-  width: calc(4 * (100vw / 12));
+  width: 33.3333333333vw;
 }
 .wp-block[data-type="core/cover"][data-align=left] .wp-block-cover,
 .wp-block[data-type="core/cover"][data-align=right] .wp-block-cover {
@@ -847,7 +847,7 @@ figcaption,
 .wp-block[data-type="core/cover"][data-align=wide] .wp-block-cover-text,
 .wp-block[data-type="core/cover"][data-align=full] h2,
 .wp-block[data-type="core/cover"][data-align=full] .wp-block-cover-text {
-    max-width: calc(8 * (100vw / 12));
+    max-width: 66.6666666667vw;
   }
 }
 @media only screen and (min-width: 1168px) {
@@ -855,7 +855,7 @@ figcaption,
 .wp-block[data-type="core/cover"][data-align=wide] .wp-block-cover-text,
 .wp-block[data-type="core/cover"][data-align=full] h2,
 .wp-block[data-type="core/cover"][data-align=full] .wp-block-cover-text {
-    max-width: calc(6 * (100vw / 12));
+    max-width: 50vw;
   }
 }
 
@@ -942,7 +942,7 @@ figcaption,
 }
 .wp-block-pullquote.is-style-solid-color blockquote {
   width: calc(100% - (2 * 1rem));
-  max-width: calc( 100% - (2 * 1rem));
+  max-width: calc(100% - (2 * 1rem));
 }
 .wp-block-pullquote.is-style-solid-color blockquote a, .wp-block-pullquote.is-style-solid-color blockquote.has-text-color p, .wp-block-pullquote.is-style-solid-color blockquote.has-text-color a {
   color: inherit;
@@ -1025,7 +1025,7 @@ figcaption,
 
 .wp-block[data-type="core/pullquote"][data-align=left] .editor-block-list__block-edit,
 .wp-block[data-type="core/pullquote"][data-align=right] .editor-block-list__block-edit {
-  width: calc(4 * (100vw / 12));
+  width: 33.3333333333vw;
   max-width: 50%;
 }
 .wp-block[data-type="core/pullquote"][data-align=left] .editor-block-list__block-edit .wp-block-pullquote:not(.is-style-solid-color),
@@ -1271,12 +1271,12 @@ ul.wp-block-archives li ul,
 
 @media only screen and (min-width: 768px) {
   .wp-block[data-align=wide] > .wp-block-group > .wp-block-group__inner-container > .wp-block:not([data-align=wide]):not([data-align=full]):not(.alignwide):not(.alignfull) {
-    width: calc(8 * (100vw / 12));
+    width: 66.6666666667vw;
   }
 }
 @media only screen and (min-width: 1168px) {
   .wp-block[data-align=wide] > .wp-block-group > .wp-block-group__inner-container > .wp-block:not([data-align=wide]):not([data-align=full]):not(.alignwide):not(.alignfull) {
-    width: calc(6 * (100vw / 12 ));
+    width: 50vw;
   }
 }
 .wp-block[data-align=wide] > .wp-block-group > .wp-block-group__inner-container > .wp-block[data-align=full],
@@ -1306,12 +1306,12 @@ ul.wp-block-archives li ul,
 }
 @media only screen and (min-width: 768px) {
   .wp-block[data-align=full] > .wp-block-group > .wp-block-group__inner-container > .wp-block:not([data-align=wide]):not(.alignwide):not([data-align=full]):not(.alignfull) {
-    max-width: calc(8 * (100vw / 12));
+    max-width: 66.6666666667vw;
   }
 }
 @media only screen and (min-width: 1168px) {
   .wp-block[data-align=full] > .wp-block-group > .wp-block-group__inner-container > .wp-block:not([data-align=wide]):not(.alignwide):not([data-align=full]):not(.alignfull) {
-    max-width: calc(6 * (100vw / 12));
+    max-width: 50vw;
   }
 }
 .wp-block[data-align=full] > .wp-block-group > .wp-block-group__inner-container > .wp-block:not([data-align=full]):not(.alignfull) {
@@ -1339,9 +1339,9 @@ ul.wp-block-archives li ul,
 @media only screen and (min-width: 768px) {
   .wp-block[data-align=full] > .wp-block-group > .wp-block-group__inner-container > .wp-block[data-align=full],
 .wp-block[data-align=full] > .wp-block-group > .wp-block-group__inner-container > .wp-block.alignfull {
-    left: calc( -12.5% - 13px );
-    width: calc( 125% + 26px );
-    max-width: calc( 125% + 25px );
+    left: calc(-12.5% - 13px);
+    width: calc(125% + 26px);
+    max-width: calc(125% + 25px);
   }
 }
 .wp-block[data-align=full] > .wp-block-group.has-background {
