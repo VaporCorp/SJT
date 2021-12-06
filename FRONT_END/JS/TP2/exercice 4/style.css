@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 1rem 0;
+}
+
+section img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+select {
+    margin: 1rem 0;
+}
+
+section {
+    margin: 2rem 0;
+}

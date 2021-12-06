@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section {
+    margin: 4rem 0;
+    opacity: 0;
+    transition: 2s;
+}
+
+section p {
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.visible {
+    transition: 2s;
+    opacity: 1;
+}
