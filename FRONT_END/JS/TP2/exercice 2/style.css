@@ -52,3 +52,7 @@ section p {
     transform: rotate(-90deg);
     text-align: center;
 }
+
+#retourHautPage:hover {
+    cursor: pointer;
+}
