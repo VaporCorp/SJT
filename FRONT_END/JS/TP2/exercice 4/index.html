@@ -12,14 +12,14 @@
    <h1>TP 2 - Exo 4 - PETIT Louis</h1>
    <h2>Filtre à espèces</h2>
    <label>Filtrer par espèces :</label>
-   <select>
-       <option>Tous</option>
-       <option>Mammifères</option>
-       <option>Poissons</option>
-       <option>Oiseaux</option>
-       <option>Reptiles</option>
+   <select id="select" onchange="choix()">
+       <option value="All" selected>Tous</option>
+       <option value="Mammiferes">Mammifères</option>
+       <option value="Poissons">Poissons</option>
+       <option value="Oiseaux">Oiseaux</option>
+       <option value="Reptiles">Reptiles</option>
    </select>
-   <section id="Mammifères" class="tous">
+   <section id="Mammiferes" class="tous">
        <h3>Mammifères</h3>
        <img src="src/mammiferes/belette.jpg" alt="Image de belette">
        <img src="src/mammiferes/chat.jpg" alt="Image de chat">
