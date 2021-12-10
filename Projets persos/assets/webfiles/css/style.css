@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #F6F6F6;
+}
+
+header {
+    background-color: #061622;
+    color: #FFF;
+    padding: 20px 0 20px 0;
+}
+
+h1{
+    color: #FFF;
+    font-size: 30px;
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+h3, h4 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* --- NAVBAR --- */
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 10000000;
+    background: -webkit-linear-gradient(left, #061622 0%,#0b293f 35%,#0b293f 65%,#061622 100%);
+}
+
+ul{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+}
+
+ul li{
+    width: 25%;
+    text-align: center;
+    list-style-type: none;
+}
+
+ul li a{
+    display: block;
+    width: 100%;
+    color: #FFF;
+    padding: 20px 0;
+    position: relative;
+}
+
+li a img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 15px;
+    left: 40px;
+}
+
+
+nav ul li:first-of-type{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+nav ul li:last-of-type{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* --- FIN NAVBAR --- */
+
+main {
+    max-width: 1150px;
+    text-align:center;
+}
+
+.presentation {
+    border: 2px solid #061622;
+    margin: 10px auto;
+    padding: 10px auto;
+}
+
+article {
+    margin-top: 50px;
+}
+
+article p {
+    text-align: left;
+}
+
+article h4 {
+    text-align: center;
+}
+
+article img {
+    border-radius: 50px;
+    margin: 10px 25px 0 25px;
+}
+
+.DemonSlayer {
+    float: right;
+}
+
+.TokyoGhoul {
+    float:left;
+}
+
+.HunterXHunter {
+    float: right;
+}
+
+.DeathNote {
+    float: left;
+}

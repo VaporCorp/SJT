@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/scripts/mainscript.js"></script>
+</head>
+<body>
+<header>
+    <h1>Liste des animes que j'ai regardé - PETIT Louis</h1>
+</header>
+<div>
+    <div class="presentation">
+        <h2>Bienvenue sur la page internet qui recense les animes que j'ai visionné</h2>
+        <p>Sur ce site vous pourrez retrouver tout les animes que j'ai visionné, que j'ai aimé ou non ainsi que
+            leurs
+            synopsis pour vous permettre de vous faire une idée sur l'histoire générale
+        </p>
+    </div>
+
+    <h2>Quelques exemples d'animes que j'ai visionné</h2>
+
+    <article id="Kimmetsu">
+        <h3>Demon Slayer (Kimmetsu No Yaiba)</h3>
+        <div class="DemonSlayer"><img src="assets/src/pictures/Kimmetsu.gif" alt="GIF animé de Demon Slayer" width="400px"
+                                      height="auto"></div>
+        <button>Voir plus d'informations sur l'anime</button>
+    </article>
+
+    <article>
+        <h3>Tokyo Ghoul</h3>
+        <div class="TokyoGhoul"><img src="assets/src/pictures/TokyoGhoul.gif" alt="GIF animé de Tokyo Ghoul" width="400px"
+                                     height="auto"></div>
+        <button>Voir plus d'informations sur l'anime</button>
+    </article>
+
+    <article>
+        <h3>Hunter X Hunter</h3>
+        <div class="HunterXHunter"><img src="assets/src/pictures/HunterXHunter.gif" alt="GIF animé de Hunter X Hunter"
+                                        width="400px" height="auto"></div>
+        <button>Voir plus d'informations sur l'anime</button>
+    </article>
+
+    <article>
+        <h3>Death Note</h3>
+        <div class="DeathNote"><img src="assets/src/pictures/DeathNote.gif" alt="GIF animé de Death Note" width="400px"
+                                    height="auto"></div>
+        <button>Voir plus d'informations sur l'anime</button>
+    </article>
+</div>
+
+
+<h1>Test de site perso</h1>
+<h2>Filtre à anime</h2>
+<label>Filtrer par type d'anime :</label>
+<select id="select" onchange="choix()">
+    <option value="All" selected>Tous</option>
+    <option value="Romance">Romance</option>
+    <option value="Sci-fi">Sci-fi</option>
+    <option value="Action">Action</option>
+    <option value="Test">Test</option>
+</select>
+<section id="Romance" class="tous">
+    <h3>Romance</h3>
+</section>
+<section id="Sci-fi" class="tous">
+    <h3>Sci-fi</h3>
+</section>
+<section id="Action" class="tous">
+    <h3>Action</h3>
+</section>
+<section id="Fantaisy" class="tous">
+    <h3>Fantaisy</h3>
+</section>
+<div id="voile"></div>
+<div id="modale">
+    <div id="head">
+        <h3>Titre factice</h3>
+        <div id="croix">X</div>
+    </div>
+    <div id="body">
+        <img src="#">
+    </div>
+    <div id="footer">
+        <h4>H4 Modale</h4>
+        <p>Infos modale 1</p>
+        <p>Infos modale 2</p>
+        <p>Infos modale 3</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-serif;
+}
+
+#voile, #modale {
+  display: none;
+}
+
+#voile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+
+#modale{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+#modale img {
+  max-width: 100%;
+}
+
+#modale #head {
+  position: relative;
+}
+
+#modale #head #croix {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.5rem;
+  cursor: pointer;
+}
+
+.show {
+  display: block !important;
+}
+
+
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 1rem 0;
+}
+
+section img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+select {
+  margin: 1rem 0;
+}
+
+section {
+  margin: 2rem 0;
+}
