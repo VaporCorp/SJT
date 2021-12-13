@@ -1,5 +1,14 @@
 window.onload= ()=>{
-    let bouton = document.querySelector('button');
+    let bouton = document.querySelectorAll('button');
+
+    console.log(bouton);
+
+    boutonsModales = ()=> {
+        var elemnts = document.getElementsByClassName('seeMore');
+        for (var i = 0; i < elemnts.length; i += 1) {
+            elemnts[i].style.display = 'none';
+        }
+    }
 
     bouton.onclick = ()=>{ // Quand on clique sur le bouton on affiche la modal via toggle de la classe show
         let titre = bouton.getAttribute("data-titre");
