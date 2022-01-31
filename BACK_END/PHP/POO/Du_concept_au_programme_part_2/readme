@@ -1,0 +1,13 @@
+Objectif : 
+
+A partir du code existant : 
+- Créer une nouvelle page (vue) sur laquelle vous 
+  retrouverez un formulaire d'ajout d'articles.
+  
+- Lors de l'envoi de ce formulaire : effectuer
+  l'ajout de l'article en base de données.
+  (sans altérer le fichier Database.php).
+
+- BONUS : Effectuer le contrôle de l'intégrité
+          des données (de façon intelligeante 
+          c'est à dire via une méthode).

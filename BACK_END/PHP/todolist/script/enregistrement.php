@@ -47,7 +47,7 @@ else {
     }
 }
 
-$reqadd = "INSERT INTO users (nom, prenom, email, motdepasse)
+$reqadd = "INSERT INTO users (nom, prenom, email, password)
         VALUES ('{$_POST['nom']}','{$_POST['prenom']}', '{$_POST['email']}', '{$_POST['motdepasse']}')";
 
 $create = mysqli_query($connexionMySql, $reqadd);
