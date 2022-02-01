@@ -1,0 +1,38 @@
+# translations/messages.fr.yaml
+global:
+  access_denied: Vous n'avez pas accès à cette page
+
+page_titles:
+  home: Accueil
+  about: A propos
+  login: Se connecter
+  register: Créer un compte
+
+header:
+  home: Accueil
+  register: Créer un compte
+  login: Connexion
+  logout: Deconnexion
+  about: A propos
+
+page_home:
+  welcome: Bienvenue sur mon site
+  mail: Adresse e-mail
+  password: Mot de passe hashé
+  logout: Déconnexion
+
+page_about:
+  about_website: A propos de ce site web
+  symfony: J'aime Symfony
+
+page_login:
+  mail: Adresse mail
+  password: Mot de passe
+  login_button: Se connecter
+  already_logged_in: Vous êtes déjà connecté
+
+page_register:
+  register_button: S'enregistrer
+  form_title: Créer un compte
+  already_logged_in_p1: Vous êtes déjà connecté
+  already_logged_in_p2: Veuillez vous déconnecter pour continuer !

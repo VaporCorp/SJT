@@ -1,9 +1,18 @@
+
+<?php
+    require_once 'Articles.php';
+?>
 <h1>Ajouter un article : </h1>
-<form method="post" action="ajout.php">
-<div>
-    <input type="text" placeholder="Titre">
-</div>
-<div>
-    <input type="text" placeholder="Contenu">
-</div>
+<form method="post" action="<?php Articles::add()?>">
+    <div>
+        <label>
+            <input type="text" placeholder="Titre" name="title">
+        </label>
+    </div>
+    <div>
+        <label>
+            <textarea type="text" placeholder="Contenu" name="content"></textarea>
+        </label>
+    </div>
+    <input type="submit" value="Envoyer">
 </form>

@@ -67,4 +67,16 @@
             $req = "INSERT INTO {$table} ({$dbFields}) VALUES ($dbValues)";
             self::preparedQuery($values, $req);
         }
+
+        public static function find($table, $id){
+            $req = "SELECT * FROM {$table} WHERE id=$id";
+
+            return self::genericQuery($req)->fetchAll(PDO::FETCH_ASSOC);
+        }
+
+        public static function delete($table, $id){
+            $req = "DELETE FROM {$table} WHERE id=$id";
+
+            self::genericQuery($req)->fetchAll();
+        }
     }

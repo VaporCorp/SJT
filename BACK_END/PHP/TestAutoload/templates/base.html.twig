@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
+
+</head>
+<body>
+<header>
+    <div class="headerContent">
+        <nav>
+            <ul>
+                <li>
+                    <a href="{{ url('home') }}">{{ "header.home" | trans }}</a>
+                </li>
+                <li>
+                    <a href="{{ url('about') }}">{{ "header.about" | trans }}</a>
+                </li>
+{#                {% if is_granted('IS_AUTHENTICATED_FULLY') %}#}
+{#                    <li>#}
+{#                        <a href="{{ url('car_show') }}">{{ "header.show_cars" | trans }}</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <a href="{{ path('cars_API') }}">{{ "header.cars_API" | trans }}</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <a href="{{ url('car_create_form') }}">{{ "header.add_car" | trans }}</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <a href="{{ path('app_logout') }}">{{ "header.logout" | trans }}</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <a href="{{ path('sign') }}">{{ "header.sign" | trans }}</a>#}
+{#                    </li>#}
+{#                {% else %}#}
+{#                    <li>#}
+{#                        <a href="{{ url('app_register') }}">{{ "header.register" | trans }}</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <a href="{{ url('login') }}">{{ "header.login" | trans }}</a>#}
+{#                    </li>#}
+{#                {% endif %}#}
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="pageContent">
+        <div class="glassWindow">
+            {% block main %}{% endblock %}
+        </div>
+    </div>
+</main>
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+{% block title %}{{ "page_titles.home" | trans }}{% endblock %}
+{% block main %}
+    <h1>{{ "page_home.welcome" | trans }}</h1>
+{#    {% if is_granted('IS_AUTHENTICATED_FULLY') %}#}
+{#        <p>{{ "page_home.mail" | trans }} : {{ app.user.email }}</p>#}
+{#        <p>{{ "page_home.password" | trans }} : {{ app.user.password }}</p>#}
+{#        {% for role in app.user.roles %}#}
+{#            <p>{{ role }}</p>#}
+{#        {% endfor %}#}
+{#        <a href="{{ path('app_logout') }}">{{ "page_home.logout" | trans }}</a>#}
+{#    {% endif %}#}
+{% endblock %}

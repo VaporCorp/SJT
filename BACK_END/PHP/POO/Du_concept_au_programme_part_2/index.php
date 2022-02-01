@@ -1,6 +1,7 @@
 <?php 
 
     require_once 'Database.php';
+    require_once 'Articles.php';
 
     $insertValues = [
                         "title"=>"Test", 
@@ -24,7 +25,10 @@
 ?>
     <ul> <h2>Liste des articles : </h2>
 <?php foreach($result as $single):?>
-        <li><?= $single["title"];?></li>
+        <li><?= $single["title"];?><br>
+            <a href="./showArticle.php?&id=<?= $single["id"] ?>">Voir +</a><br>
+            <a href="?action=supprimer&id=<?= $single["id"] ?>">Supprimer</a>
+        </li>
 <?php endforeach; ?>
     </ul>
 
