@@ -61,7 +61,7 @@ header .socials img {
 
 header .bandeDeco {
   height: 8em;
-  width: 100vw;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -196,7 +196,6 @@ aside hr {
   }
   article {
     height: 130px;
-    max-width: 500px;
     margin: 2rem auto;
     -webkit-box-align: start;
         -ms-flex-align: start;
@@ -230,9 +229,7 @@ aside hr {
     border-bottom: 4px solid #D8D8D8;
   }
   article p:last-of-type {
-    width: 70%;
-    -o-object-fit: contain;
-       object-fit: contain;
+    width: 60vw;
   }
 }
 
@@ -250,11 +247,6 @@ aside hr {
         -ms-flex-order: 1;
             order: 1;
   }
-  article p:last-of-type {
-    width: 90%;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
   aside {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -266,6 +258,9 @@ aside hr {
   }
   aside hr {
     margin: 0;
+  }
+  article p:last-of-type {
+    width: 50vw;
   }
 }
 
@@ -288,27 +283,8 @@ aside hr {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-}
-
-@media only screen and (min-width: 1440px) {
-  header .bandeDeco {
-    height: 16em;
-  }
   article {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    height: 220px;
   }
   article .date {
     font-size: 17px;
@@ -332,11 +308,48 @@ aside hr {
   article p:last-of-type {
     font-size: 16px;
     line-height: 30px;
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  header .bandeDeco {
+    height: 16em;
+  }
+  article {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   aside {
     display: block;
     float: right;
     text-align: center;
+    padding: 3rem;
+    height: 1200px;
+    position: absolute;
+    top: 362px;
+    right: 0;
+  }
+  aside li {
+    text-align: left;
+  }
+  aside h3 {
+    margin: 0 0 3rem 0;
+  }
+  aside hr {
+    margin: 3rem 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
