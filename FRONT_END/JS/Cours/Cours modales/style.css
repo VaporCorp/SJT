@@ -22,7 +22,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-color: white;
   max-width: 500px;
   padding: 2rem;
@@ -47,5 +48,4 @@
 .show {
   display: block !important;
 }
-
 /*# sourceMappingURL=style.css.map */

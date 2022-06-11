@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["style-editor-customizer.scss"],"names":[],"mappings":"AAAA;AAAA;;AAAA;AAAA","file":"style-editor-customizer.css"}
+{
+    "version": 3,
+    "mappings": "AAAA;;;;EAIE",
+    "sources": [
+        "style-editor-customizer.scss"
+    ],
+    "names": [],
+    "file": "style-editor-customizer.css"
+}

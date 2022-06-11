@@ -9,16 +9,18 @@ header {
   position: relative;
   height: 4rem;
 }
+
 header p {
   position: absolute;
   font-size: 2rem;
   top: 0;
   right: 0;
-  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
 }
+
 header img {
   height: 4rem;
   float: right;
 }
-
 /*# sourceMappingURL=style.css.map */

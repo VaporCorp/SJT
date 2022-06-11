@@ -200,6 +200,7 @@
 .admin-bar {
   --global--admin-bar--height: 32px;
 }
+
 @media only screen and (max-width: 782px) {
   .admin-bar {
     --global--admin-bar--height: 46px;
@@ -215,5 +216,4 @@
     --heading--font-size-h2: 3rem;
   }
 }
-
 /*# sourceMappingURL=global.css.map */

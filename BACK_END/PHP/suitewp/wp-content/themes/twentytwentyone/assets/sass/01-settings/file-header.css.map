@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["file-header.scss"],"names":[],"mappings":";AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA","file":"file-header.css"}
+{
+    "version": 3,
+    "mappings": ";AAAA;;;;;;;;;;;;;;;;;EAiBE",
+    "sources": [
+        "file-header.scss"
+    ],
+    "names": [],
+    "file": "file-header.css"
+}

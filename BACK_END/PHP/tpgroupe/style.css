@@ -13,6 +13,7 @@ header {
   background-color: #F44336;
   position: fixed;
 }
+
 header h1 {
   text-align: center;
   color: white;
@@ -22,10 +23,19 @@ main {
   background-image: url("images/fond_pokemon.jpg");
   background-position: center;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
 }
 
@@ -33,40 +43,58 @@ main {
   background-color: #F44336;
   border-radius: 3em;
   padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 4em;
 }
+
 .tableau table {
   border-spacing: 0px;
 }
+
 .tableau table thead, .tableau table tbody {
   display: block;
 }
+
 .tableau table tbody {
   height: 600px;
   overflow: auto;
 }
+
 .tableau table th {
   color: white;
 }
+
 .tableau table th, .tableau table td {
   padding: 1em;
 }
+
 .tableau table tr:nth-of-type(2n+2) {
   background-color: #f67f75;
 }
+
 .tableau table td .sprite {
   width: auto;
   height: 50px;
   display: block;
   margin: 0 auto;
 }
+
 .tableau table p {
   text-align: center;
 }
+
 .tableau .suppression input {
   padding: 0.25rem 0.75rem;
   border-radius: 10px;
@@ -78,8 +106,13 @@ main {
   border-radius: 3em;
   padding: 2em;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 h2 {
@@ -140,6 +173,7 @@ tbody::-webkit-scrollbar-thumb {
 }
 
 .Vol {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #3dc7ef), color-stop(50%, #bdb9b8));
   background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
 }
 
@@ -157,6 +191,7 @@ tbody::-webkit-scrollbar-thumb {
 }
 
 .Sol {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f7de3f), color-stop(50%, #ab9842));
   background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
   color: black;
 }
@@ -196,7 +231,7 @@ tbody::-webkit-scrollbar-thumb {
 }
 
 .Dragon {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #53a4cf), color-stop(50%, #f16e57));
   background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
 }
-
 /*# sourceMappingURL=style.css.map */

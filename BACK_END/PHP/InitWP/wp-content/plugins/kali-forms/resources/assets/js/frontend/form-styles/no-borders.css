@@ -1,0 +1,53 @@
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select,
+div[class=kali-forms-digital-signature],
+textarea,
+#kali-stripe-iban-element,
+#kali-stripe-card-element {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input[type=color].kali-error,
+input[type=date].kali-error,
+input[type=datetime-local].kali-error,
+input[type=datetime].kali-error,
+input[type=email].kali-error,
+input[type=month].kali-error,
+input[type=number].kali-error,
+input[type=password].kali-error,
+input[type=search].kali-error,
+input[type=tel].kali-error,
+input[type=text].kali-error,
+input[type=time].kali-error,
+input[type=url].kali-error,
+input[type=week].kali-error,
+select.kali-error,
+div[class=kali-forms-digital-signature].kali-error,
+textarea.kali-error,
+#kali-stripe-iban-element.kali-error,
+#kali-stripe-card-element.kali-error {
+  background-color: #f44336;
+}
+
+.image-radio-label--container {
+  border-color: transparent;
+}
+/*# sourceMappingURL=no-borders.css.map */

@@ -38,7 +38,8 @@ h6 {
  */
 html {
   /* Apply border-box across the entire page. */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: var(--global--font-secondary);
   line-height: var(--global--line-height-body);
 }
@@ -47,7 +48,8 @@ html {
  * Relax the definition a bit, to allow components to override it manually.
  */
 *, *::before, *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 body {
@@ -61,5 +63,4 @@ body {
 button {
   cursor: pointer;
 }
-
 /*# sourceMappingURL=reset.css.map */

@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"fonts.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "fonts.scss"
+    ],
+    "names": [],
+    "file": "fonts.css"
+}

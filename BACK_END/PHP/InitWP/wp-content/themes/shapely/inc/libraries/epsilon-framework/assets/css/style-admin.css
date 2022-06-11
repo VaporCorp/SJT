@@ -4,12 +4,16 @@
   color: #608299;
   padding: 30px 10px;
   text-align: center;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
+
 .epsilon-framework-notice.epsilon-big:after, .epsilon-framework-notice.epsilon-big:before {
   content: "";
   display: table;
 }
+
 .epsilon-framework-notice.epsilon-big:after {
   clear: both;
 }
+/*# sourceMappingURL=style-admin.css.map */

@@ -22,7 +22,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-color: white;
   max-width: 500px;
   padding: 2rem;
@@ -60,7 +61,8 @@ h1, h2 {
 section img {
   width: 150px;
   height: 150px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 select {
@@ -70,5 +72,4 @@ select {
 section {
   margin: 2rem 0;
 }
-
 /*# sourceMappingURL=style.css.map */

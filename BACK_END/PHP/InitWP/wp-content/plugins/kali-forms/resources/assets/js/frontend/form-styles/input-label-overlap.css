@@ -1,0 +1,94 @@
+.inputLabelMergeOverlap {
+  border: 1px solid #cacaca;
+  padding-top: .7em;
+  position: relative;
+  margin-top: 1.2em;
+}
+
+.inputLabelMergeOverlap small {
+  padding: 0 15px;
+}
+
+.inputLabelMergeOverlap > label {
+  padding: 8px;
+  position: absolute;
+  top: -20px;
+  left: 5px;
+  background: #fff;
+}
+
+.inputLabelMergeOverlap input[type=color],
+.inputLabelMergeOverlap input[type=date],
+.inputLabelMergeOverlap input[type=datetime-local],
+.inputLabelMergeOverlap input[type=datetime],
+.inputLabelMergeOverlap input[type=email],
+.inputLabelMergeOverlap input[type=month],
+.inputLabelMergeOverlap input[type=number],
+.inputLabelMergeOverlap input[type=password],
+.inputLabelMergeOverlap input[type=search],
+.inputLabelMergeOverlap input[type=tel],
+.inputLabelMergeOverlap input[type=text],
+.inputLabelMergeOverlap input[type=time],
+.inputLabelMergeOverlap input[type=url],
+.inputLabelMergeOverlap input[type=week],
+.inputLabelMergeOverlap select,
+.inputLabelMergeOverlap textarea,
+.inputLabelMergeOverlap #kali-stripe-iban-element, .inputLabelMergeOverlap #kali-stripe-card-element {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.inputLabelMergeOverlap input[type=color]:focus,
+.inputLabelMergeOverlap input[type=date]:focus,
+.inputLabelMergeOverlap input[type=datetime-local]:focus,
+.inputLabelMergeOverlap input[type=datetime]:focus,
+.inputLabelMergeOverlap input[type=email]:focus,
+.inputLabelMergeOverlap input[type=month]:focus,
+.inputLabelMergeOverlap input[type=number]:focus,
+.inputLabelMergeOverlap input[type=password]:focus,
+.inputLabelMergeOverlap input[type=search]:focus,
+.inputLabelMergeOverlap input[type=tel]:focus,
+.inputLabelMergeOverlap input[type=text]:focus,
+.inputLabelMergeOverlap input[type=time]:focus,
+.inputLabelMergeOverlap input[type=url]:focus,
+.inputLabelMergeOverlap input[type=week]:focus,
+.inputLabelMergeOverlap select:focus,
+.inputLabelMergeOverlap textarea:focus,
+.inputLabelMergeOverlap #kali-stripe-iban-element:focus, .inputLabelMergeOverlap #kali-stripe-card-element:focus {
+  border: none;
+}
+
+.inputLabelMergeOverlap input[type=color][readonly],
+.inputLabelMergeOverlap input[type=date][readonly],
+.inputLabelMergeOverlap input[type=datetime-local][readonly],
+.inputLabelMergeOverlap input[type=datetime][readonly],
+.inputLabelMergeOverlap input[type=email][readonly],
+.inputLabelMergeOverlap input[type=month][readonly],
+.inputLabelMergeOverlap input[type=number][readonly],
+.inputLabelMergeOverlap input[type=password][readonly],
+.inputLabelMergeOverlap input[type=search][readonly],
+.inputLabelMergeOverlap input[type=tel][readonly],
+.inputLabelMergeOverlap input[type=text][readonly],
+.inputLabelMergeOverlap input[type=time][readonly],
+.inputLabelMergeOverlap input[type=url][readonly],
+.inputLabelMergeOverlap input[type=week][readonly],
+.inputLabelMergeOverlap select[readonly],
+.inputLabelMergeOverlap textarea[readonly],
+.inputLabelMergeOverlap #kali-stripe-iban-element[readonly], .inputLabelMergeOverlap #kali-stripe-card-element[readonly] {
+  background: transparent;
+}
+
+.inputLabelMergeOverlap.checkbox-radio > label {
+  padding: 0 15px;
+  position: initial;
+}
+
+.inputLabelMergeOverlap.checkbox-radio > label:first-child {
+  padding: 8px;
+  position: absolute;
+  top: -20px;
+  left: 5px;
+  background: #fff;
+}
+/*# sourceMappingURL=input-label-overlap.css.map */
