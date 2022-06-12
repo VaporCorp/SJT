@@ -1,1 +1,0 @@
-<?php require HONEYPRESS_THEME_DIR . '/inc/customizer-repeater/inc/customizer.php'; ?>
